@@ -4220,6 +4220,609 @@
       }
     }
   },
+  "114": {
+    "511401": {
+      "id": 511401,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "11401_Potential_01",
+      "name": {
+        "EN": "Area Explosion",
+        "KR": "광역 폭파",
+        "JP": "昏き呼び声",
+        "CN": "广域爆破",
+        "TW": "廣域爆破"
+      },
+      "briefDesc": {
+        "EN": "Each time a Bouncing Bomb lands, it deals additional AoE DMG. Increases the Skill DMG dealt by the Bouncing Bomb.",
+        "KR": "「통통 폭탄」이 땅에 떨어질 때마다 추가로 범위 피해를 입힌다.  「통통 폭탄」이 입히는 &Param2_kr1& 증가한다.",
+        "JP": "ネコ神爆弾が着地するたび、追加で範囲ダメージを与える。 ネコ神爆弾が与えるスキルダメージが増加する。",
+        "CN": "「弹球炸弹」每次落地时，额外造成范围伤害。 提升「弹球炸弹」造成的技能伤害。",
+        "TW": "「彈球炸彈」每次落地時，額外造成範圍傷害。 提升「彈球炸彈」造成的技能傷害。"
+      }
+    },
+    "511402": {
+      "id": 511402,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "11401_Potential_02",
+      "name": {
+        "EN": "Overwhelming Throw",
+        "KR": "포화 투척",
+        "JP": "漆黒の帳",
+        "CN": "饱和投掷",
+        "TW": "飽和投擲"
+      },
+      "briefDesc": {
+        "EN": "When holding the Main Skill button, Chaton throws more Bouncing Bombs. Increases the Skill DMG dealt by the Bouncing Bomb.",
+        "KR": "메인 스킬을 길게 누르면 샤통이 더 많은 「통통 폭탄」을 투척한다.  「통통 폭탄」이 입히는 &Param2_kr1& 증가한다.",
+        "JP": "主力スキルを長押しした時、シャトンはより多くのネコ神爆弾を投擲する。 ネコ神爆弾が与えるスキルダメージが増加する。",
+        "CN": "长按主控技时，猫眼投掷更多「弹球炸弹」。 提升「弹球炸弹」造成的技能伤害。",
+        "TW": "長按主控技時，貓眼投擲更多「彈球炸彈」。 提升「彈球炸彈」造成的技能傷害。"
+      }
+    },
+    "511403": {
+      "id": 511403,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "11401_Potential_03",
+      "name": {
+        "EN": "Meowth's Curse",
+        "KR": "야옹신의 저주",
+        "JP": "ネコ神の呪い",
+        "CN": "喵神诅咒",
+        "TW": "喵神詛咒"
+      },
+      "briefDesc": {
+        "EN": "Reduces Dark Mark's Attack Interval. Increases Chaton's Skill DMG to targets inflicted with Dark Mark.",
+        "KR": "「암흑 표식」의 피해 간격이 감소한다.  샤통이 「암흑 표식」을 보유한 목표에게 입히는 &Param1_kr1& 증가한다.",
+        "JP": "魔痕のダメージ間隔が短縮される。 シャトンは魔痕が付与された敵に与えるスキルダメージが増加する。",
+        "CN": "「暗黑标记」的伤害间隔缩短。 提升猫眼对附带「暗黑标记」的目标造成的技能伤害。",
+        "TW": "「暗黑標記」的傷害間隔縮短。 提升貓眼對附帶「暗黑標記」的目標造成的技能傷害。"
+      }
+    },
+    "511404": {
+      "id": 511404,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "11401_Potential_04",
+      "name": {
+        "EN": "Reincarnation of Darkness",
+        "KR": "암흑의 윤회",
+        "JP": "漆黒の輪舞曲",
+        "CN": "黑暗轮回",
+        "TW": "黑暗輪迴"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG dealt by Dark Ray. Increases Dark Mark's DMG when the laser hits a target inflicted with Dark Mark.",
+        "KR": "암흑 레이저가 입히는 &Param2_kr1& 증가한다. 레이저가 「암흑 표식」을 보유한 목표를 명중하면, 「암흑 표식」이 입히는 피해가 증가한다.",
+        "JP": "空に堕ちる焔の与えるスキルダメージが増加する。 魔痕が付与されている敵にポジトロンシュートが命中時、魔痕のダメージが増加する。",
+        "CN": "提升黑暗射线造成的技能伤害。 激光命中附带「暗黑标记」的目标时，提升「暗黑标记」的伤害。",
+        "TW": "提升黑暗射線造成的技能傷害。 雷射命中附帶「暗黑標記」的目標時，提升「暗黑標記」的傷害。"
+      }
+    },
+    "511405": {
+      "id": 511405,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "11401_Potential_05",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Chain Bounce",
+        "KR": "다중 통통탄",
+        "JP": "連鎖するカルマ",
+        "CN": "多重弹跳",
+        "TW": "多重彈跳"
+      },
+      "briefDesc": {
+        "EN": "Increases a Bouncing Bomb's bounce count. Increases the ATK when a Bouncing Bomb deals DMG.",
+        "KR": "「통통 폭탄」의 튕기기 횟수가 증가한다. 「통통 폭탄」이 피해를 입힐 시의 &Param1_kr1& 증가한다.",
+        "JP": "ネコ神爆弾の跳ね返り回数が増加する。 ネコ神爆弾がダメージを与える時のみ、シャトンの攻撃力が上昇する。",
+        "CN": "提升「弹球炸弹」的弹射次数。 提升「弹球炸弹」造成伤害时的攻击。",
+        "TW": "提升「彈球炸彈」的彈射次數。 提升「彈球炸彈」造成傷害時的攻擊。"
+      }
+    },
+    "511406": {
+      "id": 511406,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "11401_Potential_06",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Efficient Use",
+        "KR": "절약 사용",
+        "JP": "収束する業火",
+        "CN": "节约使用",
+        "TW": "節約使用"
+      },
+      "briefDesc": {
+        "EN": "When a Bouncing Bomb runs out of bounces, it returns to Chaton and grants her Spark. When holding the Main Skill button, consumes Spark to increase Chaton's Skill Crit DMG and deals additional DMG to the target.",
+        "KR": "「통통 폭탄」이 튕기기 횟수를 전부 사용한 후 샤통 주변으로 돌아가, 샤통이 「불씨」를 획득한다.  메인 스킬을 길게 누르면 「불씨」를 소모해 샤통의 &Param2_kr1& 증가하고, 목표에게 추가 피해를 입힌다.",
+        "JP": "跳ね返り回数が無くなるとネコ神爆弾はシャトンの元に戻り、シャトンは火種を獲得する。 主力スキルを長押しした時、火種を消費してシャトンのスキル会心ダメージが増加し、敵に追加ダメージを与える。",
+        "CN": "「弹球炸弹」的弹射次数用尽后会返回猫眼身边，使猫眼获得「火苗」。 长按主控技时，消耗「火苗」提升猫眼技能暴击伤害，并对目标造成额外伤害。",
+        "TW": "「彈球炸彈」的彈射次數用盡後會返回貓眼身邊，使貓眼獲得「火苗」。 長按主控技時，消耗「火苗」提升貓眼技能暴擊傷害，並對目標造成額外傷害。"
+      }
+    },
+    "511407": {
+      "id": 511407,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "11401_Potential_02",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Deadly Verdict",
+        "KR": "치명적 단죄",
+        "JP": "闇の胎動",
+        "CN": "致命裁定",
+        "TW": "致命裁定"
+      },
+      "briefDesc": {
+        "EN": "Increases Bouncing Bomb's Crit DMG. When a Bouncing Bomb lands a Crit Hit, increases the Skill DMG the target takes from it.",
+        "KR": "「통통 폭탄」의 &Param1_kr1& 증가한다.  「통통 폭탄」이 치명타를 입힐 때, 「통통 폭탄」이 목표에게 입히는 &Param3_kr1& 증가한다.",
+        "JP": "ネコ神爆弾の会心ダメージが増加する。 ネコ神爆弾が会心時、ネコ神爆弾のスキルダメージが増加する。",
+        "CN": "提升「弹球炸弹」的暴击伤害。 「弹球炸弹」造成暴击时，提升目标受到「弹球炸弹」造成的技能伤害。",
+        "TW": "提升「彈球炸彈」的暴擊傷害。 「彈球炸彈」造成暴擊時，提升目標受到「彈球炸彈」造成的技能傷害。"
+      }
+    },
+    "511408": {
+      "id": 511408,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "11401_Potential_04",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Mark of Darkness",
+        "KR": "암흑 낙인",
+        "JP": "漆黒の刻印",
+        "CN": "黑暗烙印",
+        "TW": "黑暗烙印"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG dealt by Dark Ray. Chaton's Auto Attacks deal additional DMG to targets inflicted with Dark Mark.",
+        "KR": "암흑 레이저가 입히는 &Param1_kr1& 증가한다.  샤통의 일반 공격이 「암흑 표식」을 보유한 목표에게 피해를 입힐 때 추가 피해를 입힌다.",
+        "JP": "空に堕ちる焔の与えるスキルダメージが増加する。 シャトンの通常攻撃は魔痕が付与された敵にダメージを与えた時、追加でダメージを与える。",
+        "CN": "提升黑暗射线造成的技能伤害。 猫眼的普攻对附带「暗黑标记」的目标造成伤害时，额外造成伤害。",
+        "TW": "提升黑暗射線造成的技能傷害。 貓眼的普攻對附帶「暗黑標記」的目標造成傷害時，額外造成傷害。"
+      }
+    },
+    "511409": {
+      "id": 511409,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "11401_Potential_09",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Lucky Bullet",
+        "KR": "행운의 총알",
+        "JP": "慟哭の聖譚曲",
+        "CN": "幸运子弹",
+        "TW": "幸運子彈"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG of Dark Ray. When the laser lands a Crit Hit, resets the Main Skill's Cooldown and increases the Skill DMG dealt by Dark Ray.",
+        "KR": "암흑 레이저의 &Param1_kr1& 증가한다.  레이저가 치명타를 입히면 메인 스킬의 쿨타임이 초기화되고, 암흑 레이저가 입히는 &Param3_kr1& 증가한다.",
+        "JP": "空に堕ちる焔のスキルダメージが増加する。 ポジトロンシュートが会心時、主力スキルのクールタイムをリセットし、さらに空に堕ちる焔が与えるスキルダメージが増加する。",
+        "CN": "提升黑暗射线的技能伤害。 当激光造成暴击时，重置主控技冷却并提升黑暗射线造成的技能伤害。",
+        "TW": "提升黑暗射線的技能傷害。 當雷射造成暴擊時，重置主控技冷卻並提升黑暗射線造成的技能傷害。"
+      }
+    },
+    "511410": {
+      "id": 511410,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "11401_Potential_03",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Hunting Mark",
+        "KR": "사냥의 표식",
+        "JP": "黄昏の澱",
+        "CN": "猎杀标记",
+        "TW": "獵殺標記"
+      },
+      "briefDesc": {
+        "EN": "After Dark Mark lands a Crit Hit, increases the ATK of Dark Mark when it deals DMG.",
+        "KR": "「암흑 표식」이 치명타를 입힌 후, 「암흑 표식」이 피해를 입힐 시의 &Param1_kr1& 증가한다.",
+        "JP": "魔痕が会心を与えた後、魔痕がダメージを与える時のみ、シャトンの攻撃力が上昇する。",
+        "CN": "当「暗黑标记」造成暴击后，提升「暗黑标记」造成伤害时的攻击。",
+        "TW": "當「暗黑標記」造成暴擊後，提升「暗黑標記」造成傷害時的攻擊。"
+      }
+    },
+    "511411": {
+      "id": 511411,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_21",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Mobile Combat",
+        "KR": "기동 작전",
+        "JP": "雷鳴の如く",
+        "CN": "机动作战",
+        "TW": "機動作戰"
+      },
+      "briefDesc": {
+        "EN": "Increases Chaton's dodges. When Chaton casts the Main Skill, increases her Ignis DMG.",
+        "KR": "샤통의 회피 횟수가 증가한다.  샤통이 메인 스킬을 시전하면, 자신의 &Param2_kr1& 증가한다.",
+        "JP": "シャトンの回避の発動可能回数が増加する。 主力スキル発動時、シャトンの火属性ダメージが増加する。",
+        "CN": "提升猫眼闪避次数。 猫眼施放主控技时，提升自身火系伤害。",
+        "TW": "提升貓眼閃避次數。 貓眼施放主控技時，提升自身火系傷害。"
+      }
+    },
+    "511412": {
+      "id": 511412,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "Common_Potential_16",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Dominant Firepower",
+        "KR": "압도적인 화력",
+        "JP": "神速の狩人",
+        "CN": "优势火力",
+        "TW": "優勢火力"
+      },
+      "briefDesc": {
+        "EN": "Activates the rapid-fire mode for Chaton's Auto Attack, increasing her attack frequency. When Chaton triggers a mark, increases her ATK.",
+        "KR": "샤통 일반 공격의 연속 사격 모드가 활성화되어, 공격 빈도가 증가한다.  샤통이 표식을 발동하면 자신의 &Param2_kr1& 증가한다.",
+        "JP": "シャトンの通常攻撃は連射モードになり、攻撃頻度が上昇する。 シャトンが印を発動させた時、自身の攻撃力が上昇する。",
+        "CN": "激活猫眼普攻的连射模式，提升攻击频率。 猫眼触发印记时，提升自身攻击。",
+        "TW": "啟動貓眼普攻的連射模式，提升攻擊頻率。 貓眼觸發印記時，提升自身攻擊。"
+      }
+    },
+    "511413": {
+      "id": 511413,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_23",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Foe Annihilation",
+        "KR": "강적 처단",
+        "JP": "堕天する翼",
+        "CN": "强敌断灭",
+        "TW": "強敵斷滅"
+      },
+      "briefDesc": {
+        "EN": "Increases Chaton's Ignis DMG dealt to targets with higher HP.",
+        "KR": "샤통이 현재 HP가 높은 편인 목표에게 입히는 &Param2_kr1& 증가한다.",
+        "JP": "シャトンは、残りHPが高い敵に与える火属性ダメージが増加する。",
+        "CN": "提升猫眼对当前生命较高的目标造成的火系伤害。",
+        "TW": "提升貓眼對目前生命值較高的目標造成的火系傷害。"
+      }
+    },
+    "511421": {
+      "id": 511421,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "11401_Potential_21",
+      "name": {
+        "EN": "Ambush Operation",
+        "KR": "기습 작전",
+        "JP": "黒き祝福",
+        "CN": "奇袭作战",
+        "TW": "奇襲作戰"
+      },
+      "briefDesc": {
+        "EN": "When each shot of the Support Skill hits its first target, deals additional DMG.",
+        "KR": "지원 스킬이 사격으로 첫 목표를 명중할 때마다 추가 피해를 입힌다.",
+        "JP": "支援スキルの各射撃が最初の敵に命中した時、追加ダメージを与える。",
+        "CN": "援护技每次射击命中首个目标时额外造成伤害。",
+        "TW": "援護技每次射擊命中首個目標時，額外造成傷害。"
+      }
+    },
+    "511422": {
+      "id": 511422,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "11401_Potential_22",
+      "name": {
+        "EN": "Strike While the Iron is Hot",
+        "KR": "승리 추격",
+        "JP": "ベリアルシュート",
+        "CN": "胜势追击",
+        "TW": "勝勢追擊"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG of the Support Skill. When Penetrating Bullet lands a Crit Hit, the Support Skill fires 1 additional shot.",
+        "KR": "지원 스킬이 입히는 &Param2_kr1& 증가한다.  「관통 탄환」이 치명타를 입히면, 이번 지원 스킬이 추가로 1회 사격한다.",
+        "JP": "支援スキルの与えるスキルダメージが増加する。 貫通弾が会心時、今回の支援スキルは追加で1回射撃するようになる。",
+        "CN": "提升援护技造成的技能伤害。 当「贯穿弹」暴击时，本次援护技额外射击1次。",
+        "TW": "提升援護技造成的技能傷害。 當「貫穿彈」暴擊時，本次援護技額外射擊1次。"
+      }
+    },
+    "511423": {
+      "id": 511423,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "11401_Potential_23",
+      "name": {
+        "EN": "Combat Frenzy",
+        "KR": "전장의 갈망",
+        "JP": "忌まわしき翼",
+        "CN": "恋战情绪",
+        "TW": "戀戰情緒"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG dealt by Blitz Assault (Support Skill). Each time the Support Skill fires, shoots more Penetrating Bullets.",
+        "KR": "지원 스킬 &Param1_kr1& 입히는 &Param2_kr1& 증가한다.  지원 스킬이 사격할 때마다 더 많은 「관통 탄환」을 발사한다.",
+        "JP": "支援スキルの与えるスキルダメージが増加する。 支援スキルの各射撃時、発射される貫通弾の数が増加する。",
+        "CN": "援护技「快速突击」造成的技能伤害。 援护技每次射击时，发射更多「贯穿弹」。",
+        "TW": "援護技「快速突擊」造成的技能傷害。 援護技每次射擊時，發射更多「貫穿彈」。"
+      }
+    },
+    "511424": {
+      "id": 511424,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "11401_Potential_24",
+      "name": {
+        "EN": "Core Blast",
+        "KR": "중심의 분열",
+        "JP": "闇より出でし輩",
+        "CN": "中心开花",
+        "TW": "中心開花"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG of the Support Skill. When Penetrating Bullet deals DMG, it splits into many Small Penetrating Bullets that also deal DMG.",
+        "KR": "지원 스킬이 입히는 &Param2_kr1& 증가한다.  「관통 탄환」이 피해를 입히면, 대량의 「소형 관통 탄환」으로 분열되어 피해를 입힌다.",
+        "JP": "支援スキルの与えるスキルダメージが増加する。 貫通弾がダメージを与えた時、大量の小型貫通弾に分裂してダメージを与える。",
+        "CN": "提升援护技造成的技能伤害。 当「贯穿弹」造成时，分裂为大量「小型贯穿弹」造成伤害。",
+        "TW": "提升援護技造成的技能傷害。 當「貫穿彈」造成傷害時，更分裂為大量「小型貫穿彈」造成傷害。"
+      }
+    },
+    "511425": {
+      "id": 511425,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "11401_Potential_25",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Evil Eye Gaze",
+        "KR": "마안 고정",
+        "JP": "魔眼の射手",
+        "CN": "魔眼锁定",
+        "TW": "魔眼鎖定"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG of the Support Skill. When casting the Support Skill, Evil Eye locks onto the target's current position, dealing AoE DMG over time.",
+        "KR": "지원 스킬이 입히는 &Param2_kr1& 증가한다.  지원 스킬 시전 시, 마안이 목표의 현재 위치를 고정해 지속적으로 범위 피해를 입힌다.",
+        "JP": "支援スキルの与えるスキルダメージが増加する。 支援スキルの発動時、魔眼が敵のいる地点を狙い、持続的に範囲ダメージを与えるようになる。",
+        "CN": "提升援护技造成的技能伤害。 施放援护技时，魔眼锁定目标当前位置，持续造成范围伤害。",
+        "TW": "提升援護技造成的技能傷害。 施放援護技時，魔眼鎖定目標目前位置，持續造成範圍傷害。"
+      }
+    },
+    "511426": {
+      "id": 511426,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "11401_Potential_21",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Excess Amplification",
+        "KR": "초과 증폭",
+        "JP": "オーバーブースト",
+        "CN": "超额增幅",
+        "TW": "超額增幅"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG Chaton deals to targets inflicted with Lock.",
+        "KR": "샤통이 「고정」을 보유한 목표에게 입히는 &Param1_kr1& 증가한다.",
+        "JP": "シャトンは黒き祝福が付与されている敵に与えるスキルダメージが増加する。",
+        "CN": "提升猫眼对附带「锁定」的目标造成的技能伤害。",
+        "TW": "提升貓眼對附帶「鎖定」的目標造成的技能傷害。"
+      }
+    },
+    "511427": {
+      "id": 511427,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "11401_Potential_22",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Relentless Suppression",
+        "KR": "지속적인 제압",
+        "JP": "サプレッション",
+        "CN": "持续压制",
+        "TW": "持續壓制"
+      },
+      "briefDesc": {
+        "EN": "While the Support Skill is active, increases the Ignis DMG dealt by Chaton to the current target over time.",
+        "KR": "지원 스킬 기간에 샤통이 현재 목표에게 입히는 &Param2_kr1& 시간에 따라 증가한다.",
+        "JP": "支援スキル発動中、シャトンはターゲットの敵に与える火属性ダメージが時間経過とともに増加する。",
+        "CN": "援护技期间，猫眼对当前目标造成的火系伤害随时间提升。",
+        "TW": "援護技期間，貓眼對目前目標造成的火系傷害隨時間提升。"
+      }
+    },
+    "511428": {
+      "id": 511428,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "11401_Potential_28",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "One Stone Two Birds",
+        "KR": "일석이조",
+        "JP": "ツインショット",
+        "CN": "一石二鸟",
+        "TW": "一石二鳥"
+      },
+      "briefDesc": {
+        "EN": "Increases Chaton's Skill DMG. Each time the Support Skill fires, shoots additional Meow Bombs, dealing DMG.",
+        "KR": "샤통의 &Param2_kr1& 증가한다.  지원 스킬이 사격할 때마다 추가로 「냥냥 폭탄」을 발사해 피해를 입힌다.",
+        "JP": "シャトンは自身のスキルダメージが増加する。 支援スキルの各射撃時、ぷにぷにボムを発射するようになる。",
+        "CN": "提升猫眼的技能伤害。 援护技每次射击时，额外发射「猫猫炸弹」，造成伤害。",
+        "TW": "提升貓眼的技能傷害。 援護技每次射擊時，會額外發射「貓貓炸彈」，造成傷害。"
+      }
+    },
+    "511429": {
+      "id": 511429,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "11401_Potential_23",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Burnt Rifling",
+        "KR": "뜨거운 총열",
+        "JP": "フレイムバレル",
+        "CN": "灼热膛线",
+        "TW": "灼熱膛線"
+      },
+      "briefDesc": {
+        "EN": "When the Support Skill lands a Crit Hit, increases the Skill DMG it deals.",
+        "KR": "지원 스킬이 치명타를 입히면, 이번 지원 스킬이 입히는 &Param2_kr1& 증가한다.",
+        "JP": "支援スキルが会心発生時、今回の支援スキルの与えるスキルダメージが増加する。",
+        "CN": "援护技每次造成暴击时，提升本次援护技造成的技能伤害。",
+        "TW": "援護技每次造成暴擊時，提升本次援護技造成的技能傷害。"
+      }
+    },
+    "511430": {
+      "id": 511430,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "11401_Potential_30",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Minor Fling",
+        "KR": "하찮은 존재",
+        "JP": "支配する混沌",
+        "CN": "不值一提",
+        "TW": "不值一提"
+      },
+      "briefDesc": {
+        "EN": "The Support Skill instantly eliminates normal targets with low HP. Increases the Ignis DMG dealt to elite or boss targets with low HP.",
+        "KR": "지원 스킬이 현재 HP가 낮은 편인 일반 목표를 바로 처치한다.  현재 HP가 낮은 편인 정예 또는 보스 목표에게 입히는 &Param3_kr1& 증가한다.",
+        "JP": "支援スキルは、残りHPが低いノーマル敵を即座に撃破するようになり、残りHPが低いエリートおよび首領に与える火属性ダメージが増加する。",
+        "CN": "援护技直接消灭当前生命较低的普通目标。 提升对当前生命较低的精英或首领目标造成的火系伤害。",
+        "TW": "援護技直接消滅目前生命值較低的普通目標。 提升對目前生命值較低的菁英或首領目標造成的火系傷害。"
+      }
+    },
+    "511431": {
+      "id": 511431,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_22",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Energy Overflow",
+        "KR": "넘치는 에너지",
+        "JP": "フルチャージ",
+        "CN": "能量充盈",
+        "TW": "能量充盈"
+      },
+      "briefDesc": {
+        "EN": "When Chaton's Energy is full, increases her Skill DMG.",
+        "KR": "샤통의 SP가 가득 차면, 샤통의 &Param1_kr1& 증가한다.",
+        "JP": "シャトンのSPが上限に達した時、シャトンのスキルダメージが増加する。",
+        "CN": "当猫眼的能量充满时，提升猫眼的技能伤害。",
+        "TW": "當貓眼的能量充滿時，提升貓眼的技能傷害。"
+      }
+    },
+    "511432": {
+      "id": 511432,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_11",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Swift Assault",
+        "KR": "빠른 강습",
+        "JP": "目覚める邪心",
+        "CN": "快速强袭",
+        "TW": "快速強襲"
+      },
+      "briefDesc": {
+        "EN": "While Blitz Assault (Support Skill) is active, increases Chaton's Skill DMG.",
+        "KR": "지원 스킬 「빠른 돌격」 기간 중, 샤통의 &Param2_kr1& 증가한다.",
+        "JP": "支援スキル発動中、シャトンのスキルダメージが増加する。",
+        "CN": "援护技「快速突击」期间，提升猫眼的技能伤害。",
+        "TW": "援護技「快速突擊」期間，提升貓眼的技能傷害。"
+      }
+    },
+    "511433": {
+      "id": 511433,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "Common_Potential_15",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Burning Passion",
+        "KR": "불 같은 열정",
+        "JP": "パッショネイト",
+        "CN": "热情似火",
+        "TW": "熱情如火"
+      },
+      "briefDesc": {
+        "EN": "Increases the ATK of Ignis Trekkers in the squad.",
+        "KR": "팀 내 불 속성 캐릭터의 &Param1_kr1& 증가한다.",
+        "JP": "チーム内の火属性巡遊者の攻撃力が上昇する。",
+        "CN": "提升队伍中火系角色的攻击。",
+        "TW": "提升隊伍中火系角色的攻擊。"
+      }
+    },
+    "511441": {
+      "id": 511441,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "11401_Potential_41",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Curse Fall",
+        "KR": "저주의 강림",
+        "JP": "覗き込む闇",
+        "CN": "诅咒降临",
+        "TW": "詛咒降臨"
+      },
+      "briefDesc": {
+        "EN": "The Ultimate and Dark Burst deal additional DMG to targets inflicted with Cat Eye Mark.",
+        "KR": "필살기 및 「암흑 폭발」이 「묘안 표식」을 보유한 목표에게 피해를 입히면 추가 피해를 입힌다.",
+        "JP": "必殺技および「インフィニティフレア」はアビスグレアが付与された敵にダメージを与えた時、追加ダメージを与えるようになる。",
+        "CN": "绝招与「黑暗爆发」对附带「喵眼标记」的目标造成伤害时，额外造成伤害。",
+        "TW": "絕招與「黑暗爆發」對附帶「喵眼標記」的目標造成傷害時，會額外造成傷害。"
+      }
+    },
+    "511442": {
+      "id": 511442,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "11401_Potential_41",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Penetrating Bullet",
+        "KR": "관통 사격",
+        "JP": "ピアスショット",
+        "CN": "贯穿射击",
+        "TW": "貫穿射擊"
+      },
+      "briefDesc": {
+        "EN": "Increases the duration of Evil Eye Unleashed. Increases Chaton's Ultimate DMG. Allows bullets fired by Dark Burst to penetrate targets.",
+        "KR": "마안 해방 상태의 지속 시간이 증가한다.  샤통의 &Param1_kr1& 증가한다.  「암흑 폭발」이 발사한 총알은 목표를 관통할 수 있다.",
+        "JP": "魔眼解放状態の持続時間が延長される。 シャトンの必殺技ダメージが増加する。 「インフィニティフレア」で発射される弾丸は敵を貫通するようになる。",
+        "CN": "提升魔眼解放状态的持续时间。 提升猫眼的绝招伤害。 使「黑暗爆发」射出的子弹可穿透目标。",
+        "TW": "提升魔眼解放狀態的持續時間。 提升貓眼的絕招傷害。 使「黑暗爆發」射出的子彈可穿透目標。"
+      }
+    },
+    "511443": {
+      "id": 511443,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "11401_Potential_41",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Doom's Echo",
+        "KR": "재앙의 잔향",
+        "JP": "破滅の残響",
+        "CN": "灾厄余响",
+        "TW": "災厄餘響"
+      },
+      "briefDesc": {
+        "EN": "Cat Eye Mark remains on the target after the Ultimate ends. Increases Chaton's Ignis DMG to targets inflicted with Cat Eye Mark.",
+        "KR": "「묘안 표식」이 필살기 종료 후 계속하여 목표에게 남아, 샤통이 「묘안 표식」을 보유한 목표에게 입히는 &Param1_kr1& 증가한다.",
+        "JP": "必殺技のアビスグレアは、爆発後も敵に残り続けるようになる。シャトンはアビスグレアが付与された敵に与える火属性ダメージが増加する。",
+        "CN": "「喵眼标记」在绝招结束后会继续残留在目标身上，提升猫眼对附带「喵眼标记」的目标造成的火系伤害。",
+        "TW": "「喵眼標記」在絕招結束後會繼續殘留在目標身上，提升貓眼對附帶「喵眼標記」的目標造成的火系傷害。"
+      }
+    }
+  },
   "115": {
     "511501": {
       "id": 511501,
@@ -17041,7 +17644,7 @@
         "TW": "墮天二重奏"
       },
       "briefDesc": {
-        "EN": "When casting the Ultimate, Demonic Boomboxes play at the same time.",
+        "EN": "When casting the Ultimate, Demonic Boomboxes plays at the same time.",
         "KR": "필살기 시전 시 악마의 스피커를 동시에 연주한다.",
         "JP": "必殺技発動時、悪魔のスピーカーが同時に演奏するようになる。",
         "CN": "施放绝招时，恶魔音响同时演奏。",
@@ -20142,7 +20745,7 @@
       "briefDesc": {
         "EN": "While transformed into Dame Laru, Snowish Laru's shots and Candy Barrage can trigger Ignis Mark and inflict Conflagration. Increases Snowish Laru's ATK.",
         "KR": "라루(이브)가 「라루 경」으로 변신한 기간 중, 총기 사격과 스킬 &Param1_kr1& 모두 화염 표식을 발동할 수 있고, 「작열하는 불꽃」을 생성한다.  라루(이브)의 &Param3_kr1& 증가한다.",
-        "JP": "ラール（聖夜）がラール人形に変身している間、射撃と「キャンディ乱射」は火属性の印を発動させることができる。 ラール（聖夜）の攻撃力が上昇する。",
+        "JP": "ラール（聖夜）がラール人形に変身している間、射撃と「キャンディ乱射」は火属性の印を発動させることができ、発動させると、灼炎を発生させる。 ラール（聖夜）の攻撃力が上昇する。",
         "CN": "圣夜菈露变身「菈露爵士」期间，枪械射击和技能「糖果齐射」可触发火焰印记，产生「灼炎」。 提升圣夜菈露的攻击。",
         "TW": "聖夜菈露變身「菈露爵士」期間，槍械射擊和技能「糖果齊射」可觸發火系印記，產生「灼炎」。 提升聖夜菈露的攻擊。"
       }
