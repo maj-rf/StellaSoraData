@@ -502,5 +502,19 @@
     "element": "Terra",
     "class": "Versatile",
     "attackType": "Ranged"
+  },
+  "160": {
+    "id": 160,
+    "name": {
+      "EN": "Suntide Willow",
+      "KR": "윌로(여름)",
+      "JP": "ウィロー（水着）",
+      "CN": "薇洛（盛夏）",
+      "TW": "沐夏薇洛"
+    },
+    "star": 5,
+    "element": "Aqua",
+    "class": "Support",
+    "attackType": "Ranged"
   }
 }

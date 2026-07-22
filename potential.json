@@ -1611,11 +1611,11 @@
         "TW": "弱點校準"
       },
       "briefDesc": {
-        "EN": "When casting the Support Skill, increases the squad's Skill DMG to stunned targets.",
-        "KR": "지원 스킬 시전 후 팀 전체가 기절 상태의 목표에게 입히는 스킬 피해가 증가한다.",
-        "JP": "支援スキル発動時、チーム全体の、スタンしている敵へのスキルダメージが増加する。",
-        "CN": "施放援护技时，提升全队对眩晕目标造成的技能伤害。",
-        "TW": "施放援護技時，提升全隊對暈眩目標造成的技能傷害。"
+        "EN": "When casting the Support Skill, increases the squad's Skill DMG to stunned or under Resilience Breaks targets.",
+        "KR": "지원 스킬 시전 후 팀 전체가 기절 혹은 내성 무시 상태의 목표에게 입히는 스킬 피해가 증가한다.",
+        "JP": "支援スキル発動時、チーム全体は、スタンあるいはブレイク状態の敵へのスキルダメージが増加する。",
+        "CN": "施放援护技时，提升全队对眩晕或破韧目标造成的技能伤害。",
+        "TW": "施放援護技時，提升全隊對暈眩或破韌目標造成的技能傷害。"
       }
     },
     "510828": {
@@ -1674,11 +1674,11 @@
         "TW": "落井下石"
       },
       "briefDesc": {
-        "EN": "Increases the Support Skill's DMG dealt to stunned targets.",
-        "KR": "지원 스킬이 기절 상태의 목표에게 입히는 피해가 증가한다.",
-        "JP": "支援スキルの、スタンしている敵へのダメージが増加する。",
-        "CN": "提升援护技对晕眩目标造成伤害。",
-        "TW": "提升援護技對晕眩目標造成的傷害。"
+        "EN": "Increases the Support Skill's DMG dealt to stunned or under Resilience Breaks targets.",
+        "KR": "지원 스킬이 기절 혹은 내성 무시 상태의 목표에게 입히는 피해가 증가한다.",
+        "JP": "支援スキルは、スタンあるいはブレイク状態の敵へのダメージが増加する。",
+        "CN": "提升援护技对晕眩或破韧目标造成伤害。",
+        "TW": "提升援護技對晕眩或破韌目標造成的傷害。"
       }
     },
     "510831": {
@@ -7249,11 +7249,11 @@
         "TW": "生長風暴"
       },
       "briefDesc": {
-        "EN": "After Nanoha deals multiple instances of Auto Attack DMG, deals additional AoE Ventus DMG.",
-        "KR": "나노하가 일반 공격 피해를 여러 번 입힌 후 바람 속성 범위 피해를 추가로 입힌다.",
-        "JP": "ナノハの通常攻撃で敵に一定回数ダメージを与えた後、範囲内に風属性ダメージを追加で与えるようになる。",
-        "CN": "花原造成多次普攻伤害后，额外造成范围风系伤害。",
-        "TW": "花原造成多次普攻傷害後，額外造成範圍風系傷害。"
+        "EN": "After Nanoha deals multiple instances of Auto Attack DMG, deals additional AoE Ventus Auto Attack DMG.",
+        "KR": "나노하가 일반 공격 피해를 여러 번 입힌 후 바람 속성 범위 일반 공격 피해를 추가로 입힌다.",
+        "JP": "ナノハの通常攻撃で敵に一定回数ダメージを与えた後、範囲内に風属性の通常攻撃ダメージを追加で与えるようになる。",
+        "CN": "花原造成多次普攻伤害后，额外造成范围风系普攻伤害。",
+        "TW": "花原造成多次普攻傷害後，額外造成範圍風系普攻傷害。"
       }
     },
     "511902": {
@@ -14132,9 +14132,9 @@
       },
       "briefDesc": {
         "EN": "Increases Sparkla's Terra DMG to distant targets.",
-        "KR": "스파클이 자신과 멀리 떨어진 목표에게 입히는 &Param1_kr1& 증가한다.",
-        "JP": "スパクルは、自身から離れている敵に与える地属性ダメージが増加する。",
-        "CN": "提升斯帕克拉对远离自身的目标造成的地系伤害。",
+        "KR": "스파클이 원거리 목표에게 입히는 &Param1_kr1& 증가한다.",
+        "JP": "スパクルは、遠距離の敵に与える地属性ダメージが増加する。",
+        "CN": "提升斯帕克拉对远距离的目标造成的地系伤害。",
         "TW": "提升斯帕克拉對遠離自身的目標所造成的地系傷害。"
       }
     },
@@ -15427,7 +15427,7 @@
     "514225": {
       "id": 514225,
       "type": "support",
-      "rarity": 2,
+      "rarity": 1,
       "imgId": "14201_Potential_21",
       "subIcon": "Diamond",
       "name": {
@@ -15448,7 +15448,7 @@
     "514226": {
       "id": 514226,
       "type": "support",
-      "rarity": 1,
+      "rarity": 2,
       "imgId": "14201_Potential_21",
       "subIcon": "Triangle",
       "name": {
@@ -15553,7 +15553,7 @@
     "514231": {
       "id": 514231,
       "type": "support",
-      "rarity": 2,
+      "rarity": 1,
       "imgId": "14201_Potential_22",
       "subIcon": "Diamond",
       "name": {
@@ -15595,7 +15595,7 @@
     "514233": {
       "id": 514233,
       "type": "support",
-      "rarity": 1,
+      "rarity": 2,
       "imgId": "Common_Potential_15",
       "subIcon": "Round",
       "name": {
@@ -21704,6 +21704,609 @@
         "JP": "必殺技ダメージを与えた時、クルニス（華服）の攻撃力が上昇する。",
         "CN": "绝招造成伤害时，新春科洛妮丝攻击提升。",
         "TW": "絕招造成傷害時，緋春柯洛妮絲攻擊提升。"
+      }
+    }
+  },
+  "160": {
+    "516001": {
+      "id": 516001,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "16001_Potential_01",
+      "name": {
+        "EN": "Bubble Flurry",
+        "KR": "요란한 버블",
+        "JP": "乱れ飛ぶ水泡",
+        "CN": "纷乱泡泡",
+        "TW": "紛亂泡泡"
+      },
+      "briefDesc": {
+        "EN": "In Bubble Machine mode, targets with Bubble Mark generate absorbable bubbles. After absorbing them, Bubble Frog grows in size, and the Skill DMG it deals increases.",
+        "KR": "「버블 슈터」 모드에서 「물거품 표식」을 보유한 목표가 흡수 가능한 버블을 생성한다. 「버블 개구리」가 이를 흡수한 후 몸집이 커지며 입히는 &Param1_kr1& 증가한다.",
+        "JP": "バブルガンモード持続中、バブルマークが付与された敵から吸収可能なバブルが生成される。バブルフロッグがそれを吸収すると、サイズおよび与えるスキルダメージが増加する。",
+        "CN": "「泡泡机」模式下，附带「泡沫标记」目标生成可吸收泡泡，「泡泡蛙」吸收后体型变大并提升其造成的技能伤害。",
+        "TW": "「泡泡機」模式下，附帶「泡沫標記」的目標會產生可吸收泡泡，「泡泡蛙」吸收後體型變大並提升其造成的技能傷害。"
+      }
+    },
+    "516002": {
+      "id": 516002,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "16001_Potential_02",
+      "name": {
+        "EN": "Rippling Radiance",
+        "KR": "빛의 떨림",
+        "JP": "微震する流光",
+        "CN": "流光微颤",
+        "TW": "流光微顫"
+      },
+      "briefDesc": {
+        "EN": "In Bubble Machine mode, Bubble Frog deals Aqua Skill DMG to nearby targets over time while increasing their Aqua DMG Taken and inflicting Aqua Mark: Torrent.",
+        "KR": "「버블 슈터」 모드에서 「버블 개구리」가 주변 목표에게 지속적으로 물 속성 스킬 피해를 입힌다. 또한 목표의 &Param2_kr3& 증가시킨다. 물 속성 표식: 수류를 부여할 수 있다.",
+        "JP": "バブルガンモード持続中、バブルフロッグ周囲の敵に水属性のスキルダメージを与え続けるようになり、敵の水属性被ダメージが増加する。この攻撃は水属性の印：水流を付与する。",
+        "CN": "「泡泡机」模式下，「泡泡蛙」对周围目标持续造成水系技能伤害，同时使目标受到水系伤害提升，可附加水系印记：水流。",
+        "TW": "「泡泡機」模式下，「泡泡蛙」對周圍目標持續造成水系技能傷害，同時使目標受到的水系傷害提升，可附加水系印記：水流。"
+      }
+    },
+    "516003": {
+      "id": 516003,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "16001_Potential_03",
+      "name": {
+        "EN": "Rhythmic Bubbles",
+        "KR": "리듬 버블",
+        "JP": "律動する光泡",
+        "CN": "律动光泡",
+        "TW": "律動光泡"
+      },
+      "briefDesc": {
+        "EN": "In Megaphone mode, increases Bubble Frog's bounce frequency and Skill DMG. Each bounce grants additional Decibels.",
+        "KR": "「확성기」 모드에서 「버블 개구리」의 점프 빈도와 입히는 &Param1_kr1& 증가한다. 「버블 개구리」가 점프할 때마다 데시벨이 추가로 증가한다.",
+        "JP": "メガホンモード持続中、バブルフロッグのジャンプする頻度が上昇し、与えるスキルダメージが増加する。バブルフロッグがジャンプするたびに、追加でデシベル値を獲得するようになる。",
+        "CN": "「扩音器」模式下，提升「泡泡蛙」弹跳频率和造成的技能伤害。「泡泡蛙」每次弹跳，额外增加分贝值。",
+        "TW": "「擴音器」模式下，提升「泡泡蛙」彈跳頻率和造成的技能傷害。「泡泡蛙」每次彈跳，額外增加分貝值。"
+      }
+    },
+    "516004": {
+      "id": 516004,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "16001_Potential_04",
+      "name": {
+        "EN": "Rainbow Rebound",
+        "KR": "무지개빛 리바운드",
+        "JP": "跳ね回る七彩",
+        "CN": "七彩回弹",
+        "TW": "七彩回彈"
+      },
+      "briefDesc": {
+        "EN": "In Megaphone mode, Bubble Frog unleashes Echoing Soundwave when bouncing, which can echo multiple times, dealing Aqua Skill DMG and increasing the target's DMG Taken of all Elements. This DMG can inflict Aqua Mark: Torrent. The Attack Range of Echoing Soundwave increases based on the current Decibels.",
+        "KR": "「확성기」 모드에서, 「버블 개구리」가 점프 시 전파 가능한 메아리 음파를 생성해 물 속성 스킬 피해를 입힌다. 또한 목표의 받는 모든 원소 피해가 증가한다. 해당 피해는 물 속성 표식: 수류를 부여할 수 있다.  현재 데시벨에 따라 메아리 음파의 피해 범위가 증가한다.",
+        "JP": "メガホンモード持続中、バブルフロッグはジャンプ時に複数回エコーウェーブを生成するようになる。水属性のスキルダメージを与え、敵の全属性被ダメージが増加する。このダメージは水属性の印：水流を付与できる。 現在のデシベル値に応じて、エコーウェーブの範囲が拡大する。",
+        "CN": "「扩音器」模式下，「泡泡蛙」弹跳时，产生可传播多次的回响声波，造成水系技能伤害，同时使目标受到所有系伤害提升，该伤害可附加水系印记：水流。 根据当前分贝值，提升回响声波的伤害范围。",
+        "TW": "「擴音器」模式下，「泡泡蛙」彈跳時，產生可傳播多次的迴響音波，造成水系技能傷害，同時使目標受到的全屬性傷害增加，該傷害可附加水系印記：水流。 根據目前分貝值，提升迴響音波的傷害範圍。"
+      }
+    },
+    "516005": {
+      "id": 516005,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "16001_Potential_01",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Enduring Bubble",
+        "KR": "난공불락",
+        "JP": "久遠に割れぬ泡",
+        "CN": "久悬不破",
+        "TW": "久懸不破"
+      },
+      "briefDesc": {
+        "EN": "When Willow and Bubble Frog deal DMG to targets with Bubble Mark, increases the target's Aqua DMG Taken.",
+        "KR": "윌로와 「버블 개구리」가 「물거품 표식」을 보유한 목표에게 피해를 입히면 목표의 &Param1_kr1& 증가한다.",
+        "JP": "ウィロー（水着）およびバブルフロッグがバブルマークが付与されている敵にダメージを与えた時、その敵の水属性被ダメージが増加する。",
+        "CN": "薇洛和「泡泡蛙」对「泡沫标记」目标造成伤害时，使目标受到水系伤害提升。",
+        "TW": "薇洛和「泡泡蛙」對「泡沫標記」目標造成傷害時，使目標受到的水系傷害提升。"
+      }
+    },
+    "516006": {
+      "id": 516006,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "16001_Potential_02",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Dreamlike Illusion",
+        "KR": "몽환의 물거품",
+        "JP": "夢幻泡影",
+        "CN": "梦幻泡影",
+        "TW": "夢幻泡影"
+      },
+      "briefDesc": {
+        "EN": "When a squadmate triggers Aqua Mark or inflicts Aqua Mark: Torrent on targets with Bubble Mark,  increases all Aqua Trekkers' Skill DMG in the squad.",
+        "KR": "팀원이 「물거품 표식」을 보유한 목표에게 물 속성 표식을 발동하거나 물 속성 표식: 수류를 부여하면, 팀 전체 물 속성 캐릭터의 &Param1_kr1& 증가한다.",
+        "JP": "自身以外の巡遊者はバブルマークが付与されている敵に##水属性の印1を発動させた時、または水属性の印：水流を付与した時、チーム内の水属性巡遊者はスキルダメージが増加する。",
+        "CN": "队友对附带「泡沫标记」的目标触发水系印记或附加水系印记：水流时，提升全队水系角色技能伤害。",
+        "TW": "隊友對附帶「泡沫標記」的目標觸發水系印記或附加水系印記：水流時，提升全隊水系角色技能傷害。"
+      }
+    },
+    "516007": {
+      "id": 516007,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "16001_Potential_02",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Clustered Foam",
+        "KR": "단단한 응집",
+        "JP": "凝りて散らず",
+        "CN": "凝而不散",
+        "TW": "凝而不散"
+      },
+      "briefDesc": {
+        "EN": "In Bubble Machine mode, bubbles deal additional AoE Aqua Skill DMG. Can inflict Aqua Mark: Torrent. Increases the Aqua DMG dealt by all Aqua Trekkers against targets with Bubble Mark.",
+        "KR": "「버블 슈터」 모드에서 버블이 물 속성 범위 스킬 피해를 추가로 입힌다. 물 속성 표식: 수류를 부여할 수 있다.  팀 전체 물 속성 캐릭터가 「물거품 표식」을 보유한 목표에게 입히는 &Param2_kr1& 증가한다.",
+        "JP": "バブルガンモード持続中、バブルは追加で範囲内に水属性のスキルダメージを与え、水属性の印：水流を付与する。 チーム全体の水属性巡遊者はバブルマークが付与されている敵に与える水属性ダメージが増加する。",
+        "CN": "「泡泡机」模式下，泡泡额外造成范围水系技能伤害，可附加水系印记：水流。 提升全队水系角色对「泡沫标记」目标造成的水系伤害。",
+        "TW": "「泡泡機」模式下，泡泡額外造成範圍水系技能傷害，可附加水系印記：水流。 提升全隊水系角色對「泡沫標記」目標造成的水系傷害。"
+      }
+    },
+    "516008": {
+      "id": 516008,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "16001_Potential_04",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Foam Echo",
+        "KR": "부서진 여운",
+        "JP": "砕沫の余韻",
+        "CN": "碎沫余音",
+        "TW": "碎沫餘音"
+      },
+      "briefDesc": {
+        "EN": "When Echoing Soundwave deal DMG, increases own and non-Aqua Squadmates' ATK.",
+        "KR": "메아리 음파가 피해를 입히면 자신과 물 속성이 아닌 팀원의 &Param1_kr1& 증가한다.",
+        "JP": "エコーウェーブがダメージを与えた時、ウィロー（水着）とチーム内の水属性以外の巡遊者の攻撃力が上昇する。",
+        "CN": "回响声波造成伤害时，提升自身和非水系队友攻击。",
+        "TW": "迴響音波造成傷害時，提升自身和非水系隊友攻擊。"
+      }
+    },
+    "516009": {
+      "id": 516009,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "16001_Potential_03",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Touch 'n' Bounce",
+        "KR": "착지 즉시 도약",
+        "JP": "着地からの跳躍",
+        "CN": "触地既跃",
+        "TW": "觸地即躍"
+      },
+      "briefDesc": {
+        "EN": "Each time Bubble Frog bounces, increases the squad's Skill DMG. Additionally, increases non-Aqua Squadmates' Skill DMG.",
+        "KR": "「버블 개구리」가 점프할 때마다 팀 전체의 &Param1_kr1& 증가한다. 물 속성이 아닌 팀원의 &Param5_kr1& 추가로 증가한다.",
+        "JP": "バブルフロッグがジャンプするたびに、チーム全体のスキルダメージが増加し、さらにチーム内の水属性以外の巡遊者のスキルダメージが増加する。",
+        "CN": "「泡泡蛙」每次弹跳时，提升全队技能伤害，额外提升非水系队友技能伤害。",
+        "TW": "「泡泡蛙」每次彈跳時，提升全隊技能傷害，額外提升非水系隊友技能傷害。"
+      }
+    },
+    "516010": {
+      "id": 516010,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "16001_Potential_03",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Wavering Glow",
+        "KR": "일렁이는 윤슬",
+        "JP": "揺らめく浮光",
+        "CN": "摇曳浮光",
+        "TW": "搖曳浮光"
+      },
+      "briefDesc": {
+        "EN": "After bouncing a certain number of times, Bubble Frog deals Aqua Skill DMG in a large area. Can inflict Aqua Mark: Torrent, while increasing targets' Aqua DMG Taken.",
+        "KR": "「버블 개구리」가 일정 횟수 점프할 때마다, 큰 범위의 물 속성 스킬 피해를 입힌다. 물 속성 표식: 수류를 부여할 수 있다. 또한 목표가 받는 모든 원소 피해가 증가한다.",
+        "JP": "バブルフロッグが一定回数ジャンプするたびに、広範囲に水属性のスキルダメージを与え、水属性の印：水流を付与する。さらに、命中した敵の全属性被ダメージが増加する。",
+        "CN": "「泡泡蛙」每弹跳一定次数后，造成大范围水系技能伤害，可附加水系印记：水流，同时使目标受到所有系伤害提升。",
+        "TW": "「泡泡蛙」每彈跳一定次數後，造成大範圍水系技能傷害，可附加水系印記：水流，同時提升目標受到的水系傷害。"
+      }
+    },
+    "516011": {
+      "id": 516011,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_13",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Singing Shores",
+        "KR": "푸른 해안의 노래",
+        "JP": "碧岸に謡う風",
+        "CN": "风吟碧岸",
+        "TW": "風吟碧岸"
+      },
+      "briefDesc": {
+        "EN": "Can dodge one more time. After Willow dodges, increases own ATK.",
+        "KR": "회피 횟수가 증가한다. 윌로가 회피 후, 자신의 &Param1_kr1& 증가한다.",
+        "JP": "ウィロー（水着）の回避の発動可能回数が増加する。 回避発動後、ウィロー（水着）の攻撃力が上昇する。",
+        "CN": "提升闪避次数。薇洛闪避后，提升自身攻击。",
+        "TW": "提升閃避次數。薇洛閃避後，提升自身攻擊。"
+      }
+    },
+    "516012": {
+      "id": 516012,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_25",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Ocean Wanderer",
+        "KR": "파도를 쫓는 바람 소리",
+        "JP": "浪を追い風を聴く",
+        "CN": "逐浪听风",
+        "TW": "逐浪聽風"
+      },
+      "briefDesc": {
+        "EN": "When Bubble Frog deals DMG, Willow gains a shield.",
+        "KR": "「버블 개구리」가 피해를 입히면, 윌로가 보호막을 획득한다.",
+        "JP": "バブルフロッグがダメージを与えた時、ウィロー（水着）はシールドを獲得するようになる。",
+        "CN": "「泡泡蛙」造成伤害时，薇洛获得护盾。",
+        "TW": "「泡泡蛙」造成傷害時，薇洛獲得護盾。"
+      }
+    },
+    "516013": {
+      "id": 516013,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "Common_Potential_15",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Cumulus Drift",
+        "KR": "바람을 탄 구름",
+        "JP": "風に乗る泡雲",
+        "CN": "云泡乘风",
+        "TW": "雲泡乘風"
+      },
+      "briefDesc": {
+        "EN": "Increases Bubble Frog duration, and while it is on the field, increases the squad's ATK.",
+        "KR": "「버블 개구리」의 지속 시간이 연장되고, 필드에 있을 때 팀 전체 캐릭터의 &Param1_kr1& 증가한다.",
+        "JP": "バブルフロッグの持続時間が延長される。バブルフロッグがフィールドに存在時、チーム全体の攻撃力が上昇する。",
+        "CN": "「泡泡蛙」持续时间延长，存在时提升全队角色攻击。",
+        "TW": "「泡泡蛙」持續時間延長，存在時提升全隊角色攻擊。"
+      }
+    },
+    "516021": {
+      "id": 516021,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "16001_Potential_21",
+      "name": {
+        "EN": "Flying Droplets",
+        "KR": "흩날리는 물꽃",
+        "JP": "飛び散るしぶき",
+        "CN": "水花飞溅",
+        "TW": "水花飛濺"
+      },
+      "briefDesc": {
+        "EN": "Gentle Warning gains additional stat bonuses from Safety Alert. For every 10 shots fired by Willow while under Gentle Warning, she fires a straight-line water column attack that deals Aqua Skill DMG and increases Decibels, while applying Smiling Sanction and Aqua Mark: Torrent.",
+        "KR": "「다정한 설득」이 「안전 경고」의 추가 속성 버프를 획득할 수 있다. 윌로가 10회 사격할 때마다, 「다정한 설득」 상태일 경우 물기둥을 발사하여 직선으로 공격해 물 속성 스킬 피해를 입히고, 데시벨이 증가한다. 또한 「미소의 제재」와 물 속성 표식: 수류를 부여할 수 있다.",
+        "JP": "メロウ状態もラウド状態のステータス増加効果を獲得するようになる。ウィロー（水着）が10回射撃を行うごとに、かつメロウ状態である場合、直線上に水柱を発射して攻撃を行い、水属性のスキルダメージを与え、デシベル値が増加する。さらに敵にスマイルパニッシュと水属性の印：水流を付与する。",
+        "CN": "「柔声劝导」可获得「安全警告」额外的属性增益。薇洛每发动10次射击，并且当前处于「柔声劝导」状态时，会发射水柱直线攻击，造成水系技能伤害，提升分贝值，同时附加「微笑制裁」和水系印记：水流。",
+        "TW": "「柔聲勸導」可獲得「安全警告」額外的屬性增益。薇洛每發動10次射擊，並且目前處於「柔聲勸導」狀態時，會發射水柱直線攻擊，造成水系技能傷害，提升分貝值，同時附加「微笑制裁」和水系印記：水流。"
+      }
+    },
+    "516022": {
+      "id": 516022,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "16001_Potential_22",
+      "name": {
+        "EN": "Flooding Shore",
+        "KR": "해안을 덮치는 격류",
+        "JP": "岸を覆う激流",
+        "CN": "激流覆岸",
+        "TW": "激流覆岸"
+      },
+      "briefDesc": {
+        "EN": "When Decibels ≥40, consumes Decibels to fire a rotating water jet, dealing AoE Aqua Skill DMG and inflicting Smiling Sanction and Aqua Mark: Torrent.",
+        "KR": "현재 데시벨이 40 이상일 때 데시벨을 즉시 소모해 회전 물기둥을 발사하여 큰 범위에 물 속성 스킬 피해를 입힌다. 또한 「미소의 제재」와 물 속성 표식: 수류를 부여한다.",
+        "JP": "デシベル値が40以上の時、即座にデシベル値を消費して回転しながら水柱を発射し、広範囲に水属性のスキルダメージを与える。さらに敵にスマイルパニッシュと水属性の印：水流を付与する。",
+        "CN": "当前分贝值≥40时，立即消耗分贝值，发射旋转水柱，造成大范围水系技能伤害，同时附加「微笑制裁」和水系印记：水流。",
+        "TW": "目前分貝值≥40時，立即消耗分貝值，發射旋轉水柱，造成大範圍水系技能傷害，同時附加「微笑制裁」和水系印記：水流。"
+      }
+    },
+    "516023": {
+      "id": 516023,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "16001_Potential_23",
+      "name": {
+        "EN": "Rhythm Surge",
+        "KR": "울려 퍼지는 음파",
+        "JP": "たゆたう音の浪",
+        "CN": "音浪荡漾",
+        "TW": "音浪蕩漾"
+      },
+      "briefDesc": {
+        "EN": "Increases initial Decibels upon entering the field. At full Decibels, increases the squad's Crit Rate, while continuously consuming Decibels to rapidly fire bubbles.",
+        "KR": "지원 스킬 입장 시의 초기 데시벨이 증가한다. 데시벨이 가득 차면 팀 전체의 &Param1_kr1& 증가한다. 또한 데시벨을 지속적으로 소모해 빠른 속도로 버블을 발사한다.",
+        "JP": "支援スキルで出場時、初期デシベル値が増加するようになる。デシベル値が上限に達するとチーム全体の会心率が上昇する。さらに、デシベル値を消費しながらバブルを高速発射する。",
+        "CN": "援护技入场时的初始分贝值提升。分贝值满时，提升全队暴击率，同时持续消耗分贝值高速发射泡泡。",
+        "TW": "援護技入場後的初始分貝值提升。分貝值滿時，提升全隊暴擊率，同時持續消耗分貝值高速發射泡泡。"
+      }
+    },
+    "516024": {
+      "id": 516024,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "16001_Potential_24",
+      "name": {
+        "EN": "Thunderous Surf",
+        "KR": "파도 굉음",
+        "JP": "耳震わす浪鳴",
+        "CN": "浪鸣震耳",
+        "TW": "浪鳴震耳"
+      },
+      "briefDesc": {
+        "EN": "Increases Decibels gained from shots. While Safety Alert is active, bubbles turn into sonic waves, increasing DMG multiplier and the target's Aqua DMG Taken.",
+        "KR": "사격으로 획득하는 데시벨이 증가한다.  「안전 경고」 상태에서 버블이 음파로 변경되며, 피해 배율이 증가한다. 동시에 목표의 &Param2_kr1& 증가한다.",
+        "JP": "射撃で獲得するデシベル値が増加する。 ラウド状態持続中、バブルがソニックウェーブに変化するようになり、ダメージ倍率が増加し、さらに、命中した敵の水属性被ダメージが増加する。",
+        "CN": "提升射击获得的分贝值。 「安全警告」状态下泡泡变为音浪，伤害倍率提升，同时使目标受到水系伤害提升。",
+        "TW": "提升射擊獲得的分貝值。 「安全警告」狀態下泡泡變為音浪，傷害倍率提升，同時使目標受到的水系傷害提升。"
+      }
+    },
+    "516025": {
+      "id": 516025,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "16001_Potential_21",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Words Unchanged",
+        "KR": "여전한 훈계",
+        "JP": "変わらぬ戒め",
+        "CN": "劝诫依旧",
+        "TW": "勸誡依舊"
+      },
+      "briefDesc": {
+        "EN": "When entering with the Support Skill, the DMG from diving into the water also inflicts 1 stack of Smiling Sanction. Increases the max stack limit of Smiling Sanction, and additionally increases the target's Aqua DMG Taken.",
+        "KR": "지원 스킬 입장 시, 물에 뛰어드는 피해도 「미소의 제재」를 1스택 부여한다. 「미소의 제재」의 최대 스택이 증가하고, 목표의 &Param1_kr1& 추가로 증가한다.",
+        "JP": "支援スキルで出場時、水に飛び込んだ際のダメージもスマイルパニッシュを1付与するようになる。スマイルパニッシュの上限数が増加し、さらに追加で敵の水属性被ダメージが増加する。",
+        "CN": "援护技入场时，跳入水中的伤害也会附加1层「微笑制裁」。提升「微笑制裁」层数上限，并额外提升目标受到水系伤害。",
+        "TW": "援護技入場時，跳入水中的傷害也會附加1層「微笑制裁」。提升「微笑制裁」層數上限，並額外提升目標受到的水系傷害。"
+      }
+    },
+    "516026": {
+      "id": 516026,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "16001_Potential_21",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Hovering Gale",
+        "KR": "낮게 부는 바닷바람",
+        "JP": "低徊する海風",
+        "CN": "海风低徊",
+        "TW": "海風低徊"
+      },
+      "briefDesc": {
+        "EN": "When a target with Smiling Sanction has Aqua Mark triggered, this target is immediately inflicted with Aqua Mark: Torrent again and receives additional Aqua Mark DMG. The Mark DMG received this time is increased based on the stacks of Smiling Sanction.",
+        "KR": "「미소의 제재」를 보유한 목표가 물 속성 표식을 발동하면, 즉시 물 속성 표식: 수류를 다시 1회 부여하여 추가로 물 속성 표식 피해를 입히고, 「미소의 제재」 스택에 따라 이번에 입히는 &Param2_kr1& 증가한다.",
+        "JP": "スマイルパニッシュが付与された敵に対して水属性の印を発動させた時、即座に水属性の印：水流を1回付与し、追加で水属性の印ダメージを与える。このダメージは、付与されているスマイルパニッシュの数に応じて、与える印ダメージが増加する。",
+        "CN": "附带「微笑制裁」的目标触发水系印记时，立即再次附加一次水系印记：水流，额外造成水系印记伤害并根据「微笑制裁」层数提升此次造成的印记伤害。",
+        "TW": "附帶「微笑制裁」的目標觸發水系印記時，立即再次附加一次水系印記：水流，額外造成水系印記傷害，並根據「微笑制裁」層數提升此次造成的印記傷害。"
+      }
+    },
+    "516027": {
+      "id": 516027,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "16001_Potential_22",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Eternal Tide",
+        "KR": "멈추지 않는 바다 소리",
+        "JP": "鳴り止まぬ海鳴",
+        "CN": "海鸣不息",
+        "TW": "海鳴不息"
+      },
+      "briefDesc": {
+        "EN": "While Gentle Warning is active, additionally increases the squad's Aqua DMG, and the Main Trekker generates extra Decibels when dealing DMG.",
+        "KR": "「다정한 설득」 상태에서 팀 전체의 &Param1_kr1& 추가로 증가한다. 메인 캐릭터가 피해를 입히면 추가로 데시벨이 증가한다.",
+        "JP": "メロウ状態持続中、追加でチーム全体の水属性ダメージが増加し、さらに主力巡遊者がダメージを与えた時、追加でデシベル値を獲得する。",
+        "CN": "「柔声劝导」状态下，额外提升全队水系伤害，且主控角色造成伤害时，额外提供分贝值。",
+        "TW": "「柔聲勸導」狀態下，額外提升全隊水系傷害，且主控角色造成傷害時，額外提供分貝值。"
+      }
+    },
+    "516028": {
+      "id": 516028,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "16001_Potential_23",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Engulfing Tide",
+        "KR": "도시를 삼키는 파도",
+        "JP": "呑み込む巨浪",
+        "CN": "巨浪吞城",
+        "TW": "巨浪吞城"
+      },
+      "briefDesc": {
+        "EN": "Bubble Bath expands over time. When the Main Trekker is inside Bubble Bath, increases her Aqua DMG.",
+        "KR": "「버블 스파」의 면적이 지속적으로 증가한다. 메인 캐릭터가 「버블 스파」 내에 있을 때, 해당 캐릭터의 &Param1_kr1& 증가한다.",
+        "JP": "バブルエリアの範囲が持続的に拡大するようになる。主力巡遊者がバブルエリア内に存在時、その巡遊者の水属性ダメージが増加する。",
+        "CN": "「泡泡浴场」面积持续增加。主控角色处于「泡泡浴场」内时，提升该角色水系伤害。",
+        "TW": "「泡泡浴場」面積持續增加。主控角色處於「泡泡浴場」內時，提升此角色水系傷害。"
+      }
+    },
+    "516029": {
+      "id": 516029,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "16001_Potential_24",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Receding Echoes",
+        "KR": "잦아드는 물살 소리",
+        "JP": "遠ざかる潮騒",
+        "CN": "潮音渐歇",
+        "TW": "潮音漸歇"
+      },
+      "briefDesc": {
+        "EN": "Consuming Decibels increases the squad's Crit DMG.",
+        "KR": "데시벨 소모 시 팀 전체의 &Param1_kr1& 증가한다.",
+        "JP": "デシベル値消費時、チーム全体の会心ダメージが増加する。",
+        "CN": "消耗分贝值时，提升全队暴击伤害。",
+        "TW": "消耗分貝值時，提升全隊暴擊傷害。"
+      }
+    },
+    "516030": {
+      "id": 516030,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "16001_Potential_23",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Prismatic Bubbles",
+        "KR": "알록달록 물방울",
+        "JP": "異色の水泡",
+        "CN": "异色水泡",
+        "TW": "異色水泡"
+      },
+      "briefDesc": {
+        "EN": "For every certain number of shots fired by Willow, a blue bubble is generated near targets inside Bubble Bath, dealing AoE Aqua Skill DMG, while increasing the squad's Crit Rate. When a blue bubble is generated, there is a chance it turns into a red bubble, additionally increasing Main Trekker's ATK.",
+        "KR": "윌로가 사격을 일정 횟수 발동할 때마다 「버블 스파」 내에 있는 목표 주변에 파란색 물방울 1개가 생성되어, 물 속성 범위 스킬 피해를 입힌다. 또한 팀 전체의 &Param2_kr1& 증가한다. 파란색 물방울을 생성할 때, 일정 확률로 빨간색 물방울로 변경되어, 메인 캐릭터의 &Param6_kr1& 추가로 증가한다.",
+        "JP": "ウィロー（水着）が一定回数射撃を行うごとに、バブルエリア内にいる敵の付近にブルーバブルが1個生成され、範囲内に水属性のスキルダメージを与える。同時にチーム全体の会心率が上昇する。ブルーバブルが生成される時、一定確率でレッドバブルに変化し、追加で主力巡遊者の攻撃力が上昇する。",
+        "CN": "薇洛每发动一定次数的射击，处于「泡泡浴场」内的目标附近生成1个蓝色水泡，造成范围水系技能伤害，同时提升全队暴击率。产生蓝色水泡时，有概率变成红色水泡，主控角色额外提升攻击。",
+        "TW": "薇洛每發動一定次數的射擊，處於「泡泡浴場」內的目標附近會產生1個藍色水泡，造成範圍水系技能傷害，同時提升全隊暴擊率。產生藍色水泡時，有機率變成紅色水泡，主控角色額外提升攻擊。"
+      }
+    },
+    "516031": {
+      "id": 516031,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_25",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Prismatic Barrier",
+        "KR": "무지개빛의 장벽",
+        "JP": "流彩の障壁",
+        "CN": "流彩为壁",
+        "TW": "流彩為壁"
+      },
+      "briefDesc": {
+        "EN": "After staying in Bubble Bath for a period of time, the Main Trekker gains a shield.",
+        "KR": "「버블 스파」 내에 일정 시간 머무른 후, 메인 캐릭터가 보호막을 획득한다.",
+        "JP": "主力巡遊者はバブルエリア内に一定時間存在すると、定期的にシールドを獲得するようになる。",
+        "CN": "处于「泡泡浴场」内一段时间后，主控角色获得护盾。",
+        "TW": "處於「泡泡浴場」內一段時間後，主控角色獲得護盾。"
+      }
+    },
+    "516032": {
+      "id": 516032,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_11",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Tender Seas",
+        "KR": "부드러운 바다 빛깔",
+        "JP": "柔らかな海色",
+        "CN": "海色轻柔",
+        "TW": "海色輕柔"
+      },
+      "briefDesc": {
+        "EN": "When Willow is on the battlefield, increases the squad's ATK.",
+        "KR": "윌로가 필드에 있으면 팀 전체의 &Param1_kr1& 증가한다.",
+        "JP": "ウィロー（水着）がフィールドに存在時、チーム全体の攻撃力が上昇する。",
+        "CN": "薇洛在场时，提升全队攻击。",
+        "TW": "薇洛在場時，提升全隊攻擊。"
+      }
+    },
+    "516033": {
+      "id": 516033,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "Common_Potential_15",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Balmy Surf",
+        "KR": "온화한 바람과 파도",
+        "JP": "和らぎの浪風",
+        "CN": "风和浪暖",
+        "TW": "風和浪暖"
+      },
+      "briefDesc": {
+        "EN": "Each Aqua Trekker in the squad increases the squad's DEF PEN.",
+        "KR": "팀 내 물 속성 캐릭터 1명마다 팀 전체의 &Param1_kr1& 증가한다.",
+        "JP": "チーム内に水属性巡遊者が1名存在するごとに、チーム全体は防御貫通を獲得する。",
+        "CN": "队伍中每有一个水系角色，提升全队防御穿透。",
+        "TW": "隊伍中每有一個水系角色，提升全隊防禦穿透力。"
+      }
+    },
+    "516041": {
+      "id": 516041,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "16001_Potential_41",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Tidal Warning",
+        "KR": "조수의 경고",
+        "JP": "潮騒の戒め",
+        "CN": "潮声告诫",
+        "TW": "潮聲告誡"
+      },
+      "briefDesc": {
+        "EN": "Increases Ultimate DMG. After casting the Ultimate, generates additional Decibels for a period of time.",
+        "KR": "&Param1_kr1& 증가한다. 필살기 시전 후 일정 시간 동안 데시벨이 추가로 증가한다.",
+        "JP": "必殺技ダメージが増加する。必殺技発動後、一定時間追加のデシベル値を獲得するようになる。",
+        "CN": "绝招伤害提升。施放绝招后，一段时间内额外获得分贝值。",
+        "TW": "絕招傷害提升。施放絕招後，一段時間內額外獲得分貝值。"
+      }
+    },
+    "516042": {
+      "id": 516042,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "16001_Potential_41",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Shore Regulation",
+        "KR": "백사장의 통제",
+        "JP": "ビーチ管制",
+        "CN": "晴滩管制",
+        "TW": "晴灘管制"
+      },
+      "briefDesc": {
+        "EN": "When casting the Ultimate, increases the squad's ATK.",
+        "KR": "필살기 시전 시 팀 전체의 &Param1_kr1& 증가한다.",
+        "JP": "必殺技発動時、チーム全体の攻撃力が上昇する。",
+        "CN": "施放绝招时，提升全队攻击。",
+        "TW": "施放絕招時，提升全隊攻擊。"
+      }
+    },
+    "516043": {
+      "id": 516043,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "16001_Potential_41",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Marine Justice",
+        "KR": "해풍의 규율",
+        "JP": "規律敷く海風",
+        "CN": "海风执纪",
+        "TW": "海風執紀"
+      },
+      "briefDesc": {
+        "EN": "When the Ultimate deals DMG, increases the target's Aqua DMG Taken.",
+        "KR": "필살기가 피해를 입히면 목표의 &Param1_kr1& 증가한다.",
+        "JP": "必殺技がダメージを与えた時、敵の水属性被ダメージが増加する。",
+        "CN": "绝招造成伤害时，使目标受到水系伤害提升。",
+        "TW": "絕招造成傷害時，使目標受到的水系傷害提升。"
       }
     }
   }
