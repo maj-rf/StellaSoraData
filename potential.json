@@ -15427,7 +15427,7 @@
     "514225": {
       "id": 514225,
       "type": "support",
-      "rarity": 1,
+      "rarity": 2,
       "imgId": "14201_Potential_21",
       "subIcon": "Diamond",
       "name": {
@@ -15448,7 +15448,7 @@
     "514226": {
       "id": 514226,
       "type": "support",
-      "rarity": 2,
+      "rarity": 1,
       "imgId": "14201_Potential_21",
       "subIcon": "Triangle",
       "name": {
@@ -15553,7 +15553,7 @@
     "514231": {
       "id": 514231,
       "type": "support",
-      "rarity": 1,
+      "rarity": 2,
       "imgId": "14201_Potential_22",
       "subIcon": "Diamond",
       "name": {
@@ -15595,7 +15595,7 @@
     "514233": {
       "id": 514233,
       "type": "support",
-      "rarity": 2,
+      "rarity": 1,
       "imgId": "Common_Potential_15",
       "subIcon": "Round",
       "name": {
@@ -20498,6 +20498,609 @@
         "JP": "必殺技のダメージを与えた時、一定確率でその敵の地属性被ダメージを増加させる。",
         "CN": "绝招造成伤害时，有概率提升目标受到地系伤害。",
         "TW": "絕招造成傷害時，有一定機率提升目標受到的地系傷害。"
+      }
+    }
+  },
+  "157": {
+    "515701": {
+      "id": 515701,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "15701_Potential_01",
+      "name": {
+        "EN": "Predator's Vortex",
+        "KR": "포식자의 소용돌이",
+        "JP": "フィッシュネード",
+        "CN": "猎群涡流",
+        "TW": "獵群渦流"
+      },
+      "briefDesc": {
+        "EN": "Boss Shark's attacks summon a vortex of fish, dealing AoE DMG. Increases Karin's Ultimate Crit Rate against targets inflicted with Dark Burn.",
+        "KR": "「상어 대장」이 공격을 발동해 물고기떼 소용돌이를 일으켜 범위 피해를 입힌다. 카린이 어둠 작열을 보유한 목표에게 입히는 &Param2_kr1& 증가한다.",
+        "JP": "サメ大将が攻撃を行うと魚群の渦を呼び寄せ、範囲ダメージを与える。カリンは暗灼が付与された敵に対して必殺技会心率が上昇する。",
+        "CN": "「鲨老大」发动攻击可引来鱼群涡流造成范围伤害。提升花铃对附带暗灼的目标造成的绝招暴击率。",
+        "TW": "「鯊老大」發動攻擊可引來魚群渦流造成範圍傷害。提升花鈴對附帶暗灼的目標造成的絕招暴擊率。"
+      }
+    },
+    "515702": {
+      "id": 515702,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "15701_Potential_02",
+      "name": {
+        "EN": "Shark Ambush",
+        "KR": "상어 그림자의 습격",
+        "JP": "シャークアタック",
+        "CN": "鲨影潜袭",
+        "TW": "鯊影潛襲"
+      },
+      "briefDesc": {
+        "EN": "After casting the Main Skill, Karin summons Boss Shark to follow her. During this time, Boss Shark periodically lunges at the Main Trekker's target, dealing AoE DMG.\nIncreases Karin's Ultimate Crit Rate.",
+        "KR": "카린이 메인 스킬을 시전한 후 「상어 대장」이 따라다닌다. 해당 기간 중 일정 시간마다 메인 목표에게 덮치며 공격해 범위 피해를 입힌다. \n카린의 &Param2_kr1& 증가한다.",
+        "JP": "カリンが主力スキルを発動時、一定時間サメ大将が追従するようになる。追従中、一定時間ごとに敵へ飛びかかり攻撃を行い、範囲ダメージを与える。\nカリンの必殺技会心率が上昇する。",
+        "CN": "花铃施放主控技后引来「鲨老大」跟随，期间每隔一定时间对主控目标发动飞扑攻击造成范围伤害。提升\n花铃的绝招暴击率。",
+        "TW": "花鈴施放主控技後引來「鯊老大」跟隨，期間每隔一定時間對主控目標發動飛撲攻擊造成範圍傷害。提升花鈴的絕招暴擊率。"
+      }
+    },
+    "515703": {
+      "id": 515703,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "15701_Potential_03",
+      "name": {
+        "EN": "Scatter Shot",
+        "KR": "곳곳에 흩어진 탄환",
+        "JP": "スキャッター",
+        "CN": "猎弹散布",
+        "TW": "獵彈散布"
+      },
+      "briefDesc": {
+        "EN": "When Karin hits a target inflicted with Hunter's Mark with Auto Attacks, she can fire lob shots. When Karin inflicts Hunter's Mark on a target, she can fire more Auto Attack bullets for a certain duration. Increases Karin's ATK and Auto Attack DMG.",
+        "KR": "카린이 사냥 표식을 보유한 목표에게 일반 공격을 시전하면 낙하 사격을 발동한다. 카린이 목표에게 사냥 표식을 부여하면 일정 시간 동안 더 많은 일반 공격 총알을 발사한다. 카린의 &Param2_kr4& &Param4_kr1& 증가한다.",
+        "JP": "カリンはデスデスが付与された敵に通常攻撃時、曲射攻撃を行うようになる。カリンが敵にデスデスを付与した時、一定時間内、より多くのイカ墨弾を発射できる。フィールド上にデスデスが付与された敵が存在時、カリンの攻撃力が上昇し、通常攻撃ダメージが増加する。",
+        "CN": "花铃对附带猎标的目标普攻时可发动吊射。花铃对目标附加猎标时，一定时间内可发射更多普攻子弹。提升花铃的攻击和普攻伤害。",
+        "TW": "花鈴對附帶獵標的目標普攻時可發動吊射。花鈴對目標附加獵標時，一定時間內可發射更多普攻子彈。提升花鈴的攻擊和普攻傷害。"
+      }
+    },
+    "515704": {
+      "id": 515704,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "15701_Potential_04",
+      "name": {
+        "EN": "Hunting Dark Shackle",
+        "KR": "추적의 어둠 사슬",
+        "JP": "チェインハント",
+        "CN": "追猎暗锁",
+        "TW": "追獵暗鎖"
+      },
+      "briefDesc": {
+        "EN": "Extends the duration of Hunter's Mark. While Karin is linked to a target with Hunter's Mark, she deals DMG over time to all targets along the link path and restores Hunting Energy. When Karin inflicts Hunter's Mark on a target, increases her ATK and Auto Attack DMG.",
+        "KR": "사냥 표식의 지속 시간이 연장된다. 카린과 사냥 표식을 보유한 목표가 연결되는 동안 경로 상의 목표에게 지속적으로 피해를 입히고, 또한 카린의 사냥 능력을 회복한다. 카린이 목표에게 사냥 표식을 부여하면 자신의 &Param3_kr4& &Param5_kr1& 증가한다.",
+        "JP": "デスデスの持続時間が延長される。\nカリンとデスデスが付与された敵が連結中、鎖に触れた敵へ持続的に範囲ダメージを与え、カリンの狩猟本能が回復する。\nカリンが敵にデスデスを付与した時、自身の攻撃力が上昇し、通常攻撃ダメージが増加する。",
+        "CN": "延长猎标的持续时间。花铃和附带猎标的目标连线期间，对路径上的目标持续造成伤害，并回复花铃的狩能点数。花铃对目标附加猎标时，提升自身的攻击和普攻伤害。",
+        "TW": "延長獵標的持續時間。花鈴和附帶獵標的目標相連期間，對路徑上的目標持續造成傷害，並恢復花鈴的狩能點數。花鈴對目標附加獵標時，提升自身的攻擊和普攻傷害。"
+      }
+    },
+    "515705": {
+      "id": 515705,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "15701_Potential_05",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Crashing Wave",
+        "KR": "솟구치는 거대한 파도",
+        "JP": "タイダルバースト",
+        "CN": "滔天巨浪",
+        "TW": "滔天巨浪"
+      },
+      "briefDesc": {
+        "EN": "After Karin deals Ultimate DMG several times, Boss Shark follows up with a tail strike that deals AoE DMG.",
+        "KR": "카린이 필살기 피해를 여러 차례 입히면, 「상어 대장」의 꼬리 공격으로 범위 피해를 입힌다.",
+        "JP": "カリンが一定回数必殺技ダメージを与えた時、サメ大将を呼び寄せ、尻尾で追撃し、範囲ダメージを与える。",
+        "CN": "花铃造成多次绝招伤害时，引来「鲨老大」的尾击造成范围伤害。",
+        "TW": "花鈴造成多次絕招傷害時，引來「鯊老大」的尾擊造成範圍傷害。"
+      }
+    },
+    "515706": {
+      "id": 515706,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_16",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Twin Predator",
+        "KR": "두 개의 그림자",
+        "JP": "ツインチェイス",
+        "CN": "双影狩猎",
+        "TW": "雙影狩獵"
+      },
+      "briefDesc": {
+        "EN": "When Boss Shark deals DMG, increases Karin's Ultimate Crit DMG and the Ultimate Crit DMG of Umbra Versatile Trekkers.",
+        "KR": "「상어 대장」이 피해를 입히면 카린의 &Param1_kr1& 증가하고, 어둠 속성 밸런스 캐릭터의 &Param3_kr1& 증가한다.",
+        "JP": "サメ大将がダメージを与えた時、カリンの必殺技会心ダメージが増加し、闇属性のバランサー巡遊者の必殺技会心ダメージが増加する。",
+        "CN": "「鲨老大」造成伤害时，提升花铃的绝招暴击伤害，暗系均衡角色的绝招暴击伤害。",
+        "TW": "「鯊老大」造成傷害時，提升花鈴的絕招暴擊傷害，暗系均衡角色的絕招暴擊傷害。"
+      }
+    },
+    "515707": {
+      "id": 515707,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_23",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Hunter's Command",
+        "KR": "추격 지시",
+        "JP": "ハントシグナル",
+        "CN": "追猎指示",
+        "TW": "追獵指示"
+      },
+      "briefDesc": {
+        "EN": "In an all-Umbra squad, increases the DMG multiplier dealt by Boss Shark to targets inflicted with Dark Burn.",
+        "KR": "팀 전체가 어둠 속성 캐릭터일 경우, 「상어 대장」이 어둠 작열을 보유한 목표에게 입히는 &Param1_kr1& 증가한다.",
+        "JP": "チーム内に闇属性巡遊者が3体いる時、サメ大将は暗灼が付与された敵に与えるダメージ倍率が増加する。",
+        "CN": "全队都为暗系角色时，提升「鲨老大」对附带暗灼的目标造成的伤害倍率。",
+        "TW": "全隊均為暗系角色時，提升「鯊老大」對附帶暗灼的目標造成的傷害倍率。"
+      }
+    },
+    "515708": {
+      "id": 515708,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "15701_Potential_08",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Dark Shackle Detonation",
+        "KR": "어둠 사슬의 폭발",
+        "JP": "チェインバースト",
+        "CN": "暗锁溢爆",
+        "TW": "暗鎖溢爆"
+      },
+      "briefDesc": {
+        "EN": "When an enemy target loses Hunter's Mark, deals AoE DMG.",
+        "KR": "적 목표가 사냥 표식을 잃으면 범위 피해를 받는다.",
+        "JP": "敵に付与したデスデスが消失時、範囲ダメージを与える。",
+        "CN": "敌方目标失去猎标时，造成范围伤害。",
+        "TW": "敵方目標失去獵標時，造成範圍傷害。"
+      }
+    },
+    "515709": {
+      "id": 515709,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_4",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "High-Threat Target",
+        "KR": "고위험 목표",
+        "JP": "トローリング",
+        "CN": "高危目标",
+        "TW": "高危目標"
+      },
+      "briefDesc": {
+        "EN": "In an all-Umbra squad, when Bait and Catch (Main Skill) is on cooldown, increases the DMG multiplier dealt by Karin's Auto Attacks to targets inflicted with Dark Burn.",
+        "KR": "팀 전체가 어둠 속성 캐릭터이면, 메인 스킬 「미끼에 걸린 자」 쿨타임 중 카린의 일반 공격이 어둠 작열을 보유한 목표에게 입히는 &Param1_kr1& 증가한다.",
+        "JP": "チーム内に闇属性巡遊者が3体おり、かつ主力スキルのクールタイム中である時、カリンの通常攻撃が暗灼の付与された敵に与えるダメージ倍率が増加する。",
+        "CN": "全队都为暗系角色时，在主控技「愿者上钩」冷却期间，提升花铃的普攻对附带暗灼的目标造成的伤害倍率。",
+        "TW": "全隊都為暗系角色時，在主控技「願者上鉤」冷卻期間，提升花鈴的普攻對附帶暗灼的目標造成的傷害倍率。"
+      }
+    },
+    "515710": {
+      "id": 515710,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_Dark_1",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Hunting Suppression",
+        "KR": "사냥 제압",
+        "JP": "素潜り漁",
+        "CN": "狩猎压制",
+        "TW": "狩獵壓制"
+      },
+      "briefDesc": {
+        "EN": "When Karin triggers Umbra Mark on a target with Hunter's Mark, increases her Auto Attack DMG.",
+        "KR": "카린이 사냥 표식을 보유한 목표에게 어둠 속성 표식을 발동하면, 카린의 &Param1_kr1& 증가한다.",
+        "JP": "カリンはデスデスが付与された敵に闇属性の印を発動させた時、カリンの通常攻撃ダメージが増加する。",
+        "CN": "花铃对附带猎标的目标触发暗系印记时，提升花铃的普攻伤害。",
+        "TW": "花鈴對附帶獵標的目標觸發暗系印記時，提升花鈴的普攻傷害。"
+      }
+    },
+    "515711": {
+      "id": 515711,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_10",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Confidence Booster",
+        "KR": "사기 충전",
+        "JP": "夜釣り",
+        "CN": "信心倍增",
+        "TW": "信心倍增"
+      },
+      "briefDesc": {
+        "EN": "When Karin triggers an Umbra Mark, increases ATK.",
+        "KR": "카린이 어둠 속성 표식을 발동하면 &Param1_kr1& 증가한다.",
+        "JP": "カリンが闇属性の印を発動させた時、攻撃力が上昇する。",
+        "CN": "花铃触发暗系印记时，提升攻击。",
+        "TW": "花鈴觸發暗系印記時，提升攻擊。"
+      }
+    },
+    "515712": {
+      "id": 515712,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_2",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Pursuit of the Shadow",
+        "KR": "그림자 추적",
+        "JP": "シャークチェイス",
+        "CN": "猎影追踪",
+        "TW": "獵影追蹤"
+      },
+      "briefDesc": {
+        "EN": "Can dodge one more time. When dodging, increases Karin's ATK.",
+        "KR": "회피 횟수가 증가한다. 회피 시 카린의 &Param1_kr1& 증가한다.",
+        "JP": "カリンの回避の発動可能回数が増加する。 回避時、カリンの攻撃力が上昇する。",
+        "CN": "增加闪避技能次数。闪避时，提升花铃的攻击。",
+        "TW": "增加閃避技能次數。閃避時，提升花鈴的攻擊。"
+      }
+    },
+    "515713": {
+      "id": 515713,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "Common_Potential_20",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Aura of Unity",
+        "KR": "조화로운 기세",
+        "JP": "サビキ釣り",
+        "CN": "同谐气场",
+        "TW": "共鳴氣場"
+      },
+      "briefDesc": {
+        "EN": "Umbra Trekkers in the squad increase Karin's Umbra DMG and all Umbra Trekkers' Umbra DMG.",
+        "KR": "팀 내 어둠 속성 캐릭터가 카린의 &Param1_kr3& 증가시키고, 팀 전체 어둠 속성 캐릭터의 &Param3_kr3& 증가시킨다.",
+        "JP": "チーム内に闇属性巡遊者が1名存在するごとに、カリンは闇属性ダメージが増加し、チーム全体の闇属性巡遊者の闇属性ダメージが増加する。",
+        "CN": "队伍中的暗系角色可提升花铃的暗系伤害，全队暗系角色的暗系伤害。",
+        "TW": "隊伍中的暗系角色可提升花鈴的暗系傷害，全隊暗系角色的暗系傷害。"
+      }
+    },
+    "515721": {
+      "id": 515721,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "15701_Potential_21",
+      "name": {
+        "EN": "Shark's Phantom",
+        "KR": "거대 상어의 잔상",
+        "JP": "ギガシャーク",
+        "CN": "巨鲨连影",
+        "TW": "巨鯊連影"
+      },
+      "briefDesc": {
+        "EN": "Boss Shark summoned by Raging Sea (Support Skill) can repeatedly bite the target, dealing multiple instances of DMG.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 연속으로 물어뜯어 다중 피해를 입힌다.",
+        "JP": "支援スキルのサメ大将は連続で丸呑み攻撃を行い、多段ダメージを与えるようになる。",
+        "CN": "援护技「怒海翻腾」的「鲨老大」可连续撕咬造成多次伤害。",
+        "TW": "援護技「怒海翻騰」的「鯊老大」可連續撕咬造成多次傷害。"
+      }
+    },
+    "515722": {
+      "id": 515722,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "15701_Potential_22",
+      "name": {
+        "EN": "Dark Bite Mark",
+        "KR": "물어뜯은 흔적",
+        "JP": "ダークバイト",
+        "CN": "猎咬暗痕",
+        "TW": "獵咬暗痕"
+      },
+      "briefDesc": {
+        "EN": "Boss Shark summoned by Raging Sea (Support Skill) leaves bite marks when dealing DMG. Subsequent DMG from Boss Shark can detonate these bite marks, dealing single-target DMG.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 피해를 입히면 이빨 자국을 생성하고, 이후 「상어 대장」의 피해로 이빨 자국을 폭발시켜 단일 피해를 입힌다.",
+        "JP": "支援スキルのサメ大将がダメージを与えた時、噛み跡を敵に付与する。以降のサメ大将の攻撃で噛み跡が爆発、単体ダメージを与える。",
+        "CN": "援护技「怒海翻腾」的「鲨老大」造成伤害时产生齿痕，后续「鲨老大」的伤害可引爆齿痕造成单体伤害。",
+        "TW": "援護技「怒海翻騰」的「鯊老大」造成傷害時會產生齒痕，後續「鯊老大」的傷害可引爆齒痕造成單體傷害。"
+      }
+    },
+    "515723": {
+      "id": 515723,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "15701_Potential_23",
+      "name": {
+        "EN": "Tidal Lash",
+        "KR": "성난 파도의 채찍질",
+        "JP": "ハニーウィップ",
+        "CN": "怒涛鞭策",
+        "TW": "怒濤鞭策"
+      },
+      "briefDesc": {
+        "EN": "When casting Raging Sea (Support Skill), Karin can swing additional chains to deal more DMG.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」가 더 많은 사슬을 추가로 휘둘러 더 많은 피해를 입힌다.",
+        "JP": "支援スキルは、より多くの鎖を振り回すようになり、ダメージを与える。",
+        "CN": "援护技「怒海翻腾」可额外挥舞更多锁链造成更多伤害。",
+        "TW": "援護技「怒海翻騰」可額外揮舞更多鎖鏈造成更多傷害。"
+      }
+    },
+    "515724": {
+      "id": 515724,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "15701_Potential_24",
+      "name": {
+        "EN": "Undercurrent Blast",
+        "KR": "암류의 충격",
+        "JP": "アンダーサージ",
+        "CN": "暗流震爆",
+        "TW": "暗流震爆"
+      },
+      "briefDesc": {
+        "EN": "When Karin swings the chain to deal DMG during Raging Sea (Support Skill), triggers explosions that deal AoE DMG.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 피해를 입히면, 폭파가 일어나 범위 피해를 입힌다.",
+        "JP": "支援スキルで鎖を振り回してダメージを与えた時、爆発を発生させて範囲ダメージを与えるようになる。",
+        "CN": "援护技「怒海翻腾」挥舞锁链造成伤害时，可产生爆炸造成范围伤害。",
+        "TW": "援護技「怒海翻騰」揮舞鎖鏈造成傷害時，可產生爆炸造成範圍傷害。"
+      }
+    },
+    "515725": {
+      "id": 515725,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "15701_Potential_25",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Ocean Aftershock",
+        "KR": "바다의 여진",
+        "JP": "アフターショック",
+        "CN": "大海余震",
+        "TW": "大海餘震"
+      },
+      "briefDesc": {
+        "EN": "Boss Shark summoned by Raging Sea (Support Skill) triggers bubble explosions along its charge path, dealing AoE DMG.\nIncreases the Ultimate DMG dealt by Boss Shark.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」 돌진 경로 위에 물방울 폭파가 일어나 범위 피해를 입힌다. \n「상어 대장」이 입히는 &Param2_kr1& 증가한다.",
+        "JP": "支援スキルのサメ大将の進路上で泡の爆発を引き起こし、範囲ダメージを与える。\nサメ大将が与える必殺技ダメージが増加する。",
+        "CN": "援护技「怒海翻腾」的「鲨老大」冲锋路径上会引发水泡爆炸造成范围伤害。提升\n「鲨老大」造成的绝招伤害。",
+        "TW": "援護技「怒海翻騰」的「鯊老大」衝鋒路徑上會引發水泡爆炸，造成範圍傷害。提升「鯊老大」造成的絕招傷害。"
+      }
+    },
+    "515726": {
+      "id": 515726,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_5",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Pack Pursuit",
+        "KR": "협동 추격",
+        "JP": "ジョイントハント",
+        "CN": "同猎追击",
+        "TW": "同獵追擊"
+      },
+      "briefDesc": {
+        "EN": "When Boss Shark summoned by Raging Sea (Support Skill) deals DMG, increases Karin's ATK.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 피해를 입히면 카린의 &Param1_kr1& 증가한다.",
+        "JP": "支援スキルのサメ大将がダメージを与えた時、カリンの攻撃力が上昇する。",
+        "CN": "援护技「怒海翻腾」的「鲨老大」造成伤害时，提升花铃的攻击。",
+        "TW": "援護技「怒海翻騰」的「鯊老大」造成傷害時，提升花鈴的攻擊。"
+      }
+    },
+    "515727": {
+      "id": 515727,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_4",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Apex Dominance",
+        "KR": "우위 제압",
+        "JP": "水の利",
+        "CN": "上位压制",
+        "TW": "上位壓制"
+      },
+      "briefDesc": {
+        "EN": "Increases the Ultimate DMG dealt by Boss Shark summoned by Raging Sea (Support Skill) to elite or lower-tier targets.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」의 「상어 대장」이 정예 이하 목표에게 입히는 &Param1_kr1& 증가한다.",
+        "JP": "支援スキルのサメ大将がエリート以下の敵に与える必殺技ダメージが増加する。",
+        "CN": "提升援护技「怒海翻腾」的「鲨老大」对精英及以下目标造成的绝招伤害。",
+        "TW": "提升援護技「怒海翻騰」的「鯊老大」對菁英以下目標造成的絕招傷害。"
+      }
+    },
+    "515728": {
+      "id": 515728,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "15701_Potential_24",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Surging Rhythm",
+        "KR": "격동의 리듬",
+        "JP": "サージングリズム",
+        "CN": "汹涌节奏",
+        "TW": "洶湧節奏"
+      },
+      "briefDesc": {
+        "EN": "When Karin swings the chain to deal DMG during Raging Sea (Support Skill), increases the Skill DMG dealt by subsequent chain hits of this skill.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 피해를 입히면 이번 스킬 후속의 사슬이 입히는 &Param1_kr1& 증가한다.",
+        "JP": "支援スキルで鎖を振り回してダメージを与えるたびに、それ以降に放たれる鎖が与えるスキルダメージが増加する。",
+        "CN": "援护技「怒海翻腾」挥舞锁链造成伤害时，提升本次技能后续锁链造成的技能伤害。",
+        "TW": "援護技「怒海翻騰」揮舞鎖鏈造成傷害時，提升本次技能後續鎖鏈造成的技能傷害。"
+      }
+    },
+    "515729": {
+      "id": 515729,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "15701_Potential_23",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Against the Tide",
+        "KR": "파도를 거슬러",
+        "JP": "波に乗って",
+        "CN": "迎浪而上",
+        "TW": "迎浪而上"
+      },
+      "briefDesc": {
+        "EN": "Increases the Skill DMG dealt by chain swings during Raging Sea (Support Skill) to elite or higher-tier targets.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」가 사슬을 휘둘러 정예 이상 목표에게 입히는 &Param1_kr1& 증가한다.",
+        "JP": "支援スキルの鎖の振り回し攻撃はエリート以上の敵に与えるスキルダメージが増加する。",
+        "CN": "提升援护技「怒海翻腾」挥舞锁链对精英及以上目标造成的技能伤害。",
+        "TW": "提升援護技「怒海翻騰」揮舞鎖鏈對菁英以上目標造成的技能傷害。"
+      }
+    },
+    "515730": {
+      "id": 515730,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_11",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Undercurrent Surge",
+        "KR": "들끊는 암류",
+        "JP": "ダークウェイブ",
+        "CN": "暗流翻涌",
+        "TW": "暗流翻湧"
+      },
+      "briefDesc": {
+        "EN": "When any Umbra Trekker casts a Main Skill or Support Skill, increases Karin's ATK.",
+        "KR": "어둠 속성 캐릭터가 메인 스킬 또는 지원 스킬 시전 시, 카린의 &Param1_kr1& 증가한다.",
+        "JP": "チーム内の闇属性巡遊者が主力スキル、または支援スキルを発動時、カリンの攻撃力が上昇する。",
+        "CN": "任意暗系角色施放主控技或援护技时，提升花铃的攻击。",
+        "TW": "任意暗系角色施放主控技或援護技時，提升花鈴的攻擊。"
+      }
+    },
+    "515731": {
+      "id": 515731,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "Common_Potential_12",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Awkward Inspiration",
+        "KR": "쑥스러운 격려",
+        "JP": "航海士の心得",
+        "CN": "别扭鼓舞",
+        "TW": "彆扭鼓舞"
+      },
+      "briefDesc": {
+        "EN": "Increases all Umbra Trekkers' ATK.",
+        "KR": "팀 전체 어둠 속성 캐릭터의 &Param1_kr1& 증가한다.",
+        "JP": "チーム全体の闇属性巡遊者の攻撃力が上昇する。",
+        "CN": "提升全队暗系角色的攻击。",
+        "TW": "提升全隊暗系角色的攻擊。"
+      }
+    },
+    "515732": {
+      "id": 515732,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_15",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Competitive Spirit",
+        "KR": "경쟁심리",
+        "JP": "ライバル心",
+        "CN": "竞争心理",
+        "TW": "競爭心理"
+      },
+      "briefDesc": {
+        "EN": "When casting Raging Sea (Support Skill), increases Karin's Umbra DMG.",
+        "KR": "지원 스킬 「광폭한 바다의 파도」 시전 시, 카린의 &Param1_kr1& 증가한다.",
+        "JP": "支援スキル発動時、カリンの闇属性ダメージが上昇する。",
+        "CN": "施放援护技「怒海翻腾」时，提升花铃的暗系伤害。",
+        "TW": "施放援護技「怒海翻騰」時，提升花鈴的暗系傷害。"
+      }
+    },
+    "515733": {
+      "id": 515733,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_20",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Moonlit Bond",
+        "KR": "달빛에 물든 밤",
+        "JP": "超深海層",
+        "CN": "月夜同色",
+        "TW": "月夜同色"
+      },
+      "briefDesc": {
+        "EN": "Umbra Trekkers in the squad increase Karin's Umbra DMG.",
+        "KR": "팀 내 어둠 속성 캐릭터가 카린의 &Param1_kr3& 증가시킨다.",
+        "JP": "チーム内に闇属性巡遊者が1名存在するごとに、カリンは闇属性ダメージが増加する。",
+        "CN": "队伍中的暗系角色可提升花铃的暗系伤害。",
+        "TW": "隊伍中的暗系角色可提升花鈴的暗系傷害。"
+      }
+    },
+    "515741": {
+      "id": 515741,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "15701_Potential_41",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Unyielding Spirit",
+        "KR": "불굴의 정신",
+        "JP": "渦潮",
+        "CN": "不屈的精神",
+        "TW": "不屈的精神"
+      },
+      "briefDesc": {
+        "EN": "Increases the Umbra DMG dealt by Shark Assault (Ultimate) to elite or higher-tier targets. Increases Karin's ATK.",
+        "KR": "필살기 「분노한 상어의 습격」이 정예 이상 목표에게 입히는 &Param1_kr1& 증가한다. 카린의 &Param3_kr1& 증가한다.",
+        "JP": "必殺技がエリート以上の敵に与える闇属性ダメージが増加する。\nカリンの攻撃力が上昇する。",
+        "CN": "提升绝招「狂鲨强袭」对精英及以上目标造成的暗系伤害。提升花铃的攻击。",
+        "TW": "提升絕招「狂鯊強襲」對菁英以上目標造成的暗系傷害，提升花鈴的攻擊。"
+      }
+    },
+    "515742": {
+      "id": 515742,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "15701_Potential_42",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Deep-Sea Conflict",
+        "KR": "외딴 바다의 투쟁",
+        "JP": "ディープシー",
+        "CN": "绝海的斗争",
+        "TW": "絕海的鬥爭"
+      },
+      "briefDesc": {
+        "EN": "While Shark Assault (Ultimate) is active, continuously shoots bubbles to deal AoE DMG. Increases Karin's Ultimate DMG.",
+        "KR": "필살기 「분노한 상어의 습격」 기간 중 지속적으로 물방울을 분출해 범위 피해를 입힌다. 카린의 &Param3_kr1& 증가한다.",
+        "JP": "必殺技発動中、持続的に泡を噴射して範囲ダメージを与える。\nカリンの必殺技ダメージが増加する。",
+        "CN": "绝招「狂鲨强袭」期间可持续喷出水泡，造成范围伤害。提升花铃的绝招伤害。",
+        "TW": "絕招「狂鯊強襲」期間可持續噴出水泡，造成範圍傷害。提升花鈴的絕招傷害。"
+      }
+    },
+    "515743": {
+      "id": 515743,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "15701_Potential_41",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Self-Transcend",
+        "KR": "자아 초월",
+        "JP": "海底火山",
+        "CN": "自我的超越",
+        "TW": "自我的超越"
+      },
+      "briefDesc": {
+        "EN": "When casting Shark Assault (Ultimate), increases Karin's ATK.",
+        "KR": "필살기 「분노한 상어의 습격」 시전 시, 카린의 &Param1_kr1& 증가한다.",
+        "JP": "必殺技発動時、カリンの攻撃力が上昇する。",
+        "CN": "施放绝招「狂鲨强袭」时，提升花铃的攻击。",
+        "TW": "施放絕招「狂鯊強襲」時，提升花鈴的攻擊。"
       }
     }
   },

@@ -475,6 +475,20 @@
     "class": "Support",
     "attackType": "Ranged"
   },
+  "157": {
+    "id": 157,
+    "name": {
+      "EN": "Karin",
+      "KR": "카린",
+      "JP": "カリン",
+      "CN": "花铃",
+      "TW": "花鈴"
+    },
+    "star": 5,
+    "element": "Umbra",
+    "class": "Vanguard",
+    "attackType": "Ranged"
+  },
   "158": {
     "id": 158,
     "name": {
