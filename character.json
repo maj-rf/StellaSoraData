@@ -321,6 +321,20 @@
     "class": "Versatile",
     "attackType": "Ranged"
   },
+  "137": {
+    "id": 137,
+    "name": {
+      "EN": "Eleanor",
+      "KR": "엘레노어",
+      "JP": "エレノア",
+      "CN": "埃莉诺",
+      "TW": "埃莉諾"
+    },
+    "star": 5,
+    "element": "Ventus",
+    "class": "Versatile",
+    "attackType": "Melee"
+  },
   "140": {
     "id": 140,
     "name": {

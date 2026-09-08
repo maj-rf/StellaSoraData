@@ -11494,7 +11494,7 @@
         "KR": "메인 스킬이 빛 속성 표식을 발동한 후 「2루타」가 강화된다.",
         "JP": "主力スキルで光属性の印を発動させた後、二塁打が強化される。",
         "CN": "主控技触发光系印记后，强化「二垒打」。",
-        "TW": "主控技觸發光系印記後，強化「二壘安打」。"
+        "TW": "主控技觸發光系印記後，強化「二壘打」。"
       }
     },
     "513203": {
@@ -13865,6 +13865,609 @@
         "JP": "必殺技のダメージを与えた時、ミスティの必殺技ダメージが増加する。",
         "CN": "绝招造成伤害时，提升雾语绝招伤害。",
         "TW": "絕招造成傷害時，提升霧語絕招傷害。"
+      }
+    }
+  },
+  "137": {
+    "513701": {
+      "id": 513701,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "13701_Potential_01",
+      "name": {
+        "EN": "Tactical Protocol: Threshold",
+        "KR": "전술 프로토콜: 임계",
+        "JP": "令嬢戦術：開花",
+        "CN": "战术协议：阈值",
+        "TW": "戰術協議：閾值"
+      },
+      "briefDesc": {
+        "EN": "Increases the number of attacks and Ventus DMG of Cross Slash. Reduces the cooldown for gaining Tactical Energy.",
+        "KR": "「크로스 참격」의 공격 횟수와 &Param1_kr1& 증가한다. 전술 에너지의 쿨타임이 단축된다.",
+        "JP": "レディ・クロスの攻撃回数と与える風属性ダメージが増加する。 通常攻撃で令嬢のひらめきを獲得する効果のクールタイムが短縮される。",
+        "CN": "提升「十字重斩」的攻击次数和风系伤害。获得战术储能的冷却缩短。",
+        "TW": "提升「十字重斬」的攻擊次數和風系傷害。獲得戰術儲能的冷卻縮短。"
+      }
+    },
+    "513702": {
+      "id": 513702,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "13701_Potential_02",
+      "name": {
+        "EN": "Tactical Protocol: Detonation",
+        "KR": "전술 프로토콜: 폭파",
+        "JP": "令嬢戦術：爆花",
+        "CN": "战术协议：爆破",
+        "TW": "戰術協議：爆破"
+      },
+      "briefDesc": {
+        "EN": "When Tactical Energy is gained or consumed, fires 1 bomb. Reduces the Tactical Energy consumed by Cross Slash.",
+        "KR": "전술 에너지를 획득하거나 소모할 때, 폭탄을 1개 발사한다. 「크로스 참격」이 소모하는 전술 에너지가 감소한다.",
+        "JP": "令嬢のひらめきを獲得または消費した時、爆弾を1発発射する。レディ・クロスで消費する令嬢のひらめきが減少する。",
+        "CN": "获得或消耗战术储能时发射1枚炸弹。「十字重斩」消耗的战术储能降低。",
+        "TW": "獲得或消耗戰術儲能時發射1枚炸彈。「十字重斬」消耗的戰術儲能降低。"
+      }
+    },
+    "513703": {
+      "id": 513703,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "13701_Potential_03",
+      "name": {
+        "EN": "Tactical Protocol: Overload",
+        "KR": "전술 프로토콜: 과부하",
+        "JP": "令嬢戦術：閃花",
+        "CN": "战术协议：过载",
+        "TW": "戰術協議：超載"
+      },
+      "briefDesc": {
+        "EN": "Reduces Vigil's Attack Interval. When casting Cross Slash, increases Eleanor's ATK.",
+        "KR": "「경계」가 피해를 입히는 간격이 단축된다. 「크로스 참격」을 시전할 때 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "警戒は、ダメージを与える間隔が短縮される。レディ・クロス発動時、エレノアの攻撃力が上昇する。",
+        "CN": "「警戒」造成伤害的间隔缩短。施放「十字重斩」时，提升埃莉诺的攻击。",
+        "TW": "「警戒」造成傷害的間隔縮短。施放「十字重斬」時，提升埃莉諾的攻擊。"
+      }
+    },
+    "513704": {
+      "id": 513704,
+      "type": "main",
+      "rarity": 0,
+      "imgId": "13701_Potential_04",
+      "name": {
+        "EN": "Tactical Protocol: Synergy",
+        "KR": "전술 프로토콜: 협동",
+        "JP": "令嬢戦術：嵐花",
+        "CN": "战术协议：协同",
+        "TW": "戰術協議：協同"
+      },
+      "briefDesc": {
+        "EN": "Vigil can deal additional AoE Ventus Skill DMG. When casting the Main Skill, increases Eleanor's Ventus DMG.",
+        "KR": "「경계」가 바람 속성 범위 스킬 피해를 추가로 입힌다. 메인 스킬을 시전할 때, 엘레노어의 &Param2_kr1& 증가한다.",
+        "JP": "警戒は、追加で範囲内に風属性のスキルダメージを与えるようになる。主力スキル発動時、エレノアの風属性ダメージが上昇する。",
+        "CN": "「警戒」可额外造成范围风系技能伤害。施放主控技时，提升埃莉诺的风系伤害。",
+        "TW": "「警戒」可額外造成範圍風系技能傷害。施放主控技時，提升埃莉諾的風系傷害。"
+      }
+    },
+    "513705": {
+      "id": 513705,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "13701_Potential_05",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Double Rifts",
+        "KR": "이중 균열",
+        "JP": "レディ・ブレイク",
+        "CN": "二重裂痕",
+        "TW": "二重裂痕"
+      },
+      "briefDesc": {
+        "EN": "Cross Slash can trigger additional explosions. Increases Cross Slash's Ventus DMG.",
+        "KR": "「크로스 참격」이 추가 폭파를 일으킨다. 「크로스 참격」이 입히는 &Param2_kr1& 증가한다.",
+        "JP": "レディ・クロスは追加で爆発を発生させるようになる。 レディ・クロスは敵に与える風属性ダメージが増加する。",
+        "CN": "「十字重斩」可引发额外爆炸。提升「十字重斩」造成的风系伤害。",
+        "TW": "「十字重斬」可引發額外爆炸。提升「十字重斬」造成的風系傷害。"
+      }
+    },
+    "513706": {
+      "id": 513706,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "13701_Potential_01",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Battle Fury",
+        "KR": "전의 급증",
+        "JP": "ライジングハート",
+        "CN": "战意激增",
+        "TW": "戰意激增"
+      },
+      "briefDesc": {
+        "EN": "When casting Cross Slash, increases Eleanor's ATK.",
+        "KR": "「크로스 참격」을 시전할 때 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "レディ・クロス発動時、エレノアの攻撃力が上昇する。",
+        "CN": "施放「十字重斩」时，提升埃莉诺的攻击。",
+        "TW": "施放「十字重斬」時，提升埃莉諾的攻擊。"
+      }
+    },
+    "513707": {
+      "id": 513707,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "13701_Potential_05",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Vortex Boost",
+        "KR": "소용돌이 증폭",
+        "JP": "フローラルストーム",
+        "CN": "涡流增效",
+        "TW": "渦流增效"
+      },
+      "briefDesc": {
+        "EN": "The last Auto Attack strike can trigger Ventus Mark. During Vigil, increases Eleanor's Auto Attack DMG.",
+        "KR": "일반 공격 최후의 일격이 바람 속성 표식을 발동할 수 있다. 「경계」 기간 중, 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "通常攻撃の最終段で風属性の印を発動できるようになる。警戒持続中、エレノアの通常攻撃ダメージが増加する。",
+        "CN": "普攻最后一击可触发风系印记。「警戒」期间，提升埃莉诺的普攻伤害。",
+        "TW": "普攻最後一擊可觸發風系印記。「警戒」期間，提升埃莉諾的普攻傷害。"
+      }
+    },
+    "513708": {
+      "id": 513708,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "13701_Potential_08",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Area Volley",
+        "KR": "광범위 산탄",
+        "JP": "ワイドブルーム",
+        "CN": "广域散射",
+        "TW": "廣域散射"
+      },
+      "briefDesc": {
+        "EN": "Increases Vigil's Attack Range and its Skill DMG.",
+        "KR": "「경계」의 피해 범위가 증가하고, 「경계」의 &Param1_kr1& 증가한다.",
+        "JP": "警戒のダメージ範囲が拡大し、与えるスキルダメージが増加する。",
+        "CN": "提升「警戒」的伤害范围，提升「警戒」的技能伤害。",
+        "TW": "提升「警戒」的傷害範圍，提升「警戒」的技能傷害。"
+      }
+    },
+    "513709": {
+      "id": 513709,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "13701_Potential_03",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Zone Detection",
+        "KR": "구역 감지",
+        "JP": "令嬢の覚悟",
+        "CN": "区域感知",
+        "TW": "區域感知"
+      },
+      "briefDesc": {
+        "EN": "When casting the Main Skill, increases Eleanor's ATK.",
+        "KR": "메인 스킬을 시전할 때 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "主力スキル発動時、エレノアの攻撃力が上昇する。",
+        "CN": "施放主控技时，提升埃莉诺的攻击。",
+        "TW": "施放主控技時，提升埃莉諾的攻擊。"
+      }
+    },
+    "513710": {
+      "id": 513710,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "13701_Potential_01",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Chain Echo",
+        "KR": "연결 피드백",
+        "JP": "優雅たる心",
+        "CN": "链路反馈",
+        "TW": "連鎖回饋"
+      },
+      "briefDesc": {
+        "EN": "When Auto Attack DMG is dealt, increases Eleanor's Skill DMG.",
+        "KR": "일반 공격 피해를 입힐 때, 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "通常攻撃ダメージを与えた時、エレノアのスキルダメージが増加する。",
+        "CN": "造成普攻伤害时，提升埃莉诺技能伤害。",
+        "TW": "造成普攻傷害時，提升埃莉諾的技能傷害。"
+      }
+    },
+    "513711": {
+      "id": 513711,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_Wind_1",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Annihilation Pulse",
+        "KR": "섬멸 펄스",
+        "JP": "お転婆令嬢",
+        "CN": "歼灭脉冲",
+        "TW": "殲滅脈衝"
+      },
+      "briefDesc": {
+        "EN": "The Ultimate can trigger Ventus Mark. Increases Eleanor's Ventus DMG.",
+        "KR": "필살기가 바람 속성 표식을 발동할 수 있다. 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "必殺技は風属性の印を発動できるようになる。 エレノアの風属性ダメージが増加する。",
+        "CN": "绝招可触发风系印记。提升埃莉诺的风系伤害。",
+        "TW": "絕招可觸發風系印記。提升埃莉諾的風系傷害。"
+      }
+    },
+    "513712": {
+      "id": 513712,
+      "type": "main",
+      "rarity": 2,
+      "imgId": "Common_Potential_2",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Flicker Sequence",
+        "KR": "반짝임 서열",
+        "JP": "風のステップ",
+        "CN": "闪烁序列",
+        "TW": "閃爍序列"
+      },
+      "briefDesc": {
+        "EN": "Decreases Dodge cooldown. Increases Eleanor's ATK.",
+        "KR": "회피 쿨타임이 단축된다. 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "回避のクールタイムが短縮される。 エレノアの攻撃力が上昇する。",
+        "CN": "闪避冷却时间缩减。提升埃莉诺的攻击。",
+        "TW": "閃避冷卻時間縮減。提升埃莉諾的攻擊。"
+      }
+    },
+    "513713": {
+      "id": 513713,
+      "type": "main",
+      "rarity": 1,
+      "imgId": "Common_Potential_15",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Wind Bond",
+        "KR": "바람 정령의 연결",
+        "JP": "冒険の風",
+        "CN": "风灵链接",
+        "TW": "風靈連結"
+      },
+      "briefDesc": {
+        "EN": "When triggering Ventus Mark, increases the ATK of all Ventus Trekkers in the squad.",
+        "KR": "바람 속성 표식을 발동하면, 팀 전체 바람 속성 캐릭터의 &Param1_kr1& 증가한다.",
+        "JP": "風属性の印を発動させた時、チーム全体の風属性巡遊者の攻撃力が上昇する。",
+        "CN": "触发风系印记时，提升全队风系角色的攻击。",
+        "TW": "觸發風系印記時，提升全隊風系角色的攻擊。"
+      }
+    },
+    "513721": {
+      "id": 513721,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "13701_Potential_21",
+      "name": {
+        "EN": "Chain Detonation",
+        "KR": "연쇄 폭발",
+        "JP": "ペイントバースト",
+        "CN": "连锁引爆",
+        "TW": "連鎖引爆"
+      },
+      "briefDesc": {
+        "EN": "Increases the Support Skill's Skill Crit Rate and the number of explosions.",
+        "KR": "지원 스킬의 &Param1_kr1& 증가한다. 지원 스킬이 발동하는 폭파의 횟수가 증가한다.",
+        "JP": "支援スキルのスキル会心率が上昇する。支援スキルで発生する爆発回数が増加する。",
+        "CN": "提升援护技的技能暴击率。提升援护技引发的爆炸次数。",
+        "TW": "提升援護技的技能暴擊率。增加援護技引發的爆炸次數。"
+      }
+    },
+    "513722": {
+      "id": 513722,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "13701_Potential_22",
+      "name": {
+        "EN": "Seismic Spread",
+        "KR": "진원 확장",
+        "JP": "キャンバス拡張",
+        "CN": "震源扩张",
+        "TW": "震源擴張"
+      },
+      "briefDesc": {
+        "EN": "Increases the Support Skill's Skill Crit DMG, Attack Range, and DMG multiplier.",
+        "KR": "지원 스킬의 &Param3_kr1& 증가한다. 지원 스킬의 피해 범위와 &Param1_kr1& 증가한다.",
+        "JP": "支援スキルのスキル会心ダメージが増加する。支援スキルのダメージ範囲が拡大され、ダメージ倍率が増加する。",
+        "CN": "提升援护技的技能暴击伤害。提升援护技的伤害范围和伤害倍率。",
+        "TW": "提升援護技的技能暴擊傷害。提升援護技的傷害範圍和傷害倍率。"
+      }
+    },
+    "513723": {
+      "id": 513723,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "13701_Potential_23",
+      "name": {
+        "EN": "Function Sustain",
+        "KR": "기능 지속",
+        "JP": "ブルーミングタイム",
+        "CN": "机能续航",
+        "TW": "機能續航"
+      },
+      "briefDesc": {
+        "EN": "Increases Sentries' ATK. Each time a Sentry is generated, extends the duration of all existing Sentries on the field. The Support Skill can increase Sentries' DMG multiplier.",
+        "KR": "파수꾼의 &Param5_kr1& 증가한다. 파수꾼이 생성될 때마다 필드에 존재하는 파수꾼의 지속 시간이 연장된다. 지원 스킬이 파수꾼이 입히는 &Param1_kr3& 증가시킬 수 있다.",
+        "JP": "フラワードローンの攻撃力が上昇する。フラワードローンを生成するたびに、フィールド上に存在するフラワードローンの持続時間が延長される。支援スキルによりフラワードローンが与えるダメージ倍率が増加する。",
+        "CN": "提升哨兵的攻击。每次产生哨兵时，延长场中已有哨兵的存在时间。援护技可提升哨兵造成的伤害倍率。",
+        "TW": "提升哨兵的攻擊。每次產生哨兵時，延長場中現有哨兵的存在時間。援護技可提升哨兵造成的傷害倍率。"
+      }
+    },
+    "513724": {
+      "id": 513724,
+      "type": "support",
+      "rarity": 0,
+      "imgId": "13701_Potential_24",
+      "name": {
+        "EN": "Cluster Barrage",
+        "KR": "집중 속사",
+        "JP": "追撃ガード",
+        "CN": "集群速射",
+        "TW": "集群速射"
+      },
+      "briefDesc": {
+        "EN": "Sentries deal additional AoE Ventus Auto Attack DMG. Each Sentry on the field increases ATK SPD of all Sentries on the field.",
+        "KR": "파수꾼이 바람 속성 범위 일반 공격 피해를 추가로 입힌다. 필드의 파수꾼 1명마다 필드 전체 파수꾼의 &Param2_kr1& 증가한다.",
+        "JP": "フラワードローンは追加で範囲内に風属性の通常攻撃ダメージを与える。フィールド上のフラワードローン1体につき、すべてのフラワードローンの攻撃速度が上昇する。",
+        "CN": "哨兵额外造成范围风系普攻伤害。场中每1名哨兵可使全场哨兵的攻击速度提升。",
+        "TW": "哨兵額外造成範圍風系普攻傷害。場中每1名哨兵可使全場哨兵的攻擊速度提升。"
+      }
+    },
+    "513725": {
+      "id": 513725,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "13701_Potential_25",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Field Pull",
+        "KR": "역장 견인",
+        "JP": "冒険の彩り",
+        "CN": "力场牵引",
+        "TW": "力場牽引"
+      },
+      "briefDesc": {
+        "EN": "Increases the Support Skill's Skill Crit Rate and DMG multiplier of its jump slam explosions.",
+        "KR": "지원 스킬의 &Param3_kr1& 증가한다. 지원 스킬 찍어내리기 폭파의 &Param1_kr1& 증가한다.",
+        "JP": "支援スキルのスキル会心率が上昇し、叩きつけによる爆発が与えるダメージ倍率が増加する。",
+        "CN": "提升援护技的技能暴击率。提升援护技下砸爆炸的伤害倍率。",
+        "TW": "提升援護技的技能暴擊率。提升援護技下砸爆炸的傷害倍率。"
+      }
+    },
+    "513726": {
+      "id": 513726,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "13701_Potential_21",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Power Boost",
+        "KR": "동력 증압",
+        "JP": "貴族のカリスマ",
+        "CN": "动力增压",
+        "TW": "動力增壓"
+      },
+      "briefDesc": {
+        "EN": "When jump slam explosions from the Support Skill deal DMG, increases Eleanor's Skill DMG and the Ventus Vanguard Main Trekker's Skill Crit DMG.",
+        "KR": "지원 스킬 찍어내리기 폭파가 피해를 입히면, 엘레노어의 &Param1_kr4& 바람 속성 딜러 메인 캐릭터의 &Param5_kr1& 증가한다.",
+        "JP": "支援スキルの叩きつけ爆発がダメージを与えた時、エレノアのスキルダメージおよび、風属性のアタッカー主力巡遊者のスキル会心ダメージが増加する。",
+        "CN": "援护技下砸爆炸造成伤害时，提升埃莉诺的技能伤害和风系先锋主控角色的技能暴击伤害。",
+        "TW": "援護技下砸爆炸造成傷害時，提升埃莉諾的技能傷害和風系先鋒主控角色的技能暴擊傷害。"
+      }
+    },
+    "513727": {
+      "id": 513727,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "13701_Potential_21",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Shattering Blow",
+        "KR": "파괴적인 타격",
+        "JP": "パワフルお嬢様",
+        "CN": "破阵重击",
+        "TW": "破陣重擊"
+      },
+      "briefDesc": {
+        "EN": "Increases the DMG multiplier and Ventus DMG of jump slam explosions from the Support Skill.",
+        "KR": "지원 스킬 찍어내리기 폭파가 입히는 &Param1_kr4& &Param3_kr1& 증가한다.",
+        "JP": "支援スキルの叩きつけ爆発が与えるダメージ倍率と風属性ダメージが増加する。",
+        "CN": "提升援护技下砸爆炸造成的伤害倍率和风系伤害。",
+        "TW": "提升援護技下砸爆炸造成的傷害倍率和風系傷害。"
+      }
+    },
+    "513728": {
+      "id": 513728,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "13701_Potential_28",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Piercing Trajectory",
+        "KR": "관통 탄도",
+        "JP": "神器転換",
+        "CN": "贯穿弹道",
+        "TW": "貫穿彈道"
+      },
+      "briefDesc": {
+        "EN": "Increases the size of bullets fired by Sentries. Increases Sentries' Auto Attack DMG.",
+        "KR": "파수꾼이 발사하는 총알 크기가 증가하고, 파수꾼이 입히는 &Param1_kr1& 증가한다.",
+        "JP": "フラワードローンが発射する弾丸のサイズが大きくなる。フラワードローンが与える通常攻撃ダメージが増加する。",
+        "CN": "提升哨兵发射的子弹大小。提升哨兵造成的普攻伤害。",
+        "TW": "提升哨兵發射的子彈大小與哨兵造成的普攻傷害。"
+      }
+    },
+    "513729": {
+      "id": 513729,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "13701_Potential_23",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Suppression Analysis",
+        "KR": "제압 분석",
+        "JP": "審美眼",
+        "CN": "压制解析",
+        "TW": "壓制解析"
+      },
+      "briefDesc": {
+        "EN": "Increases Sentries' Auto Attack DMG and Eleanor's ATK.",
+        "KR": "파수꾼이 입히는 &Param1_kr1& 증가하고, 엘레노어의 &Param3_kr1& 증가한다.",
+        "JP": "フラワードローンが与える通常攻撃ダメージが増加する。エレノアの攻撃力が上昇する。",
+        "CN": "提升哨兵造成的普攻伤害。提升埃莉诺的攻击。",
+        "TW": "提升哨兵造成的普攻傷害。提升埃莉諾的攻擊。"
+      }
+    },
+    "513730": {
+      "id": 513730,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "13701_Potential_23",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Precision Calibration",
+        "KR": "정밀 영점 조절",
+        "JP": "エスコートダンス",
+        "CN": "精密校准",
+        "TW": "精密校準"
+      },
+      "briefDesc": {
+        "EN": "Increases Sentries' ATK. Sentries can increase the Ventus Vanguard Main Trekker's Auto Attack DMG.",
+        "KR": "파수꾼의 &Param1_kr1& 증가한다. 파수꾼이 바람 속성 딜러 메인 캐릭터의 &Param3_kr3& 증가시킬 수 있다.",
+        "JP": "フラワードローンの攻撃力が上昇する。フラワードローンは風属性のアタッカー主力巡遊者の通常攻撃ダメージを増加させる。",
+        "CN": "提升哨兵的攻击。哨兵可提升风系先锋主控角色的普攻伤害。",
+        "TW": "提升哨兵的攻擊。哨兵可提升風系先鋒主控角色的普攻傷害。"
+      }
+    },
+    "513731": {
+      "id": 513731,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_Wind_1",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Wind Resonance",
+        "KR": "바람 정령의 공명",
+        "JP": "貴族のつとめ",
+        "CN": "风灵谐振",
+        "TW": "風靈諧振"
+      },
+      "briefDesc": {
+        "EN": "When triggering Ventus Mark, increases Eleanor's ATK.",
+        "KR": "바람 속성 표식이 발동될 때, 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "風属性の印を発動させた時、エレノアの攻撃力が上昇する。",
+        "CN": "触发风系印记时，提升埃莉诺的攻击。",
+        "TW": "觸發風系印記時，提升埃莉諾的攻擊。"
+      }
+    },
+    "513732": {
+      "id": 513732,
+      "type": "support",
+      "rarity": 1,
+      "imgId": "Common_Potential_11",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Annihilation Echo",
+        "KR": "섬멸의 잔향",
+        "JP": "お嬢様の本気",
+        "CN": "歼灭余响",
+        "TW": "殲滅餘響"
+      },
+      "briefDesc": {
+        "EN": "The Ultimate can inflict Ventus Mark: Breeze. When Eleanor deals DMG to a target, increases the target's Ventus DMG Taken.",
+        "KR": "필살기가 바람 속성 표식: 풍식을 부여할 수 있다. 엘레노어가 목표에게 피해를 입히면 목표의 &Param1_kr1& 증가한다.",
+        "JP": "必殺技で風属性の印：風息を付与できるようになる。エレノアが敵にダメージを与えた時、敵の風属性被ダメージが増加する。",
+        "CN": "绝招可附加风系印记：风息。埃莉诺对目标造成伤害时，使目标受到风系伤害提升。",
+        "TW": "絕招可附加風系印記：風息。埃莉諾對目標造成傷害時，使目標的受到的風系傷害提升。"
+      }
+    },
+    "513733": {
+      "id": 513733,
+      "type": "support",
+      "rarity": 2,
+      "imgId": "Common_Potential_15",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Power Amp",
+        "KR": "전투력 증폭",
+        "JP": "リーダーの片鱗",
+        "CN": "战力增幅",
+        "TW": "戰力增幅"
+      },
+      "briefDesc": {
+        "EN": "When Eleanor deals DMG, increases the Ventus DMG of all Ventus Trekkers in the squad.",
+        "KR": "엘레노어가 피해를 입히면, 팀 전체 바람 속성 캐릭터의 &Param1_kr1& 증가한다.",
+        "JP": "エレノアがダメージを与えた時、チーム全体の風属性巡遊者の風属性ダメージが増加する。",
+        "CN": "埃莉诺造成伤害时，提升全队风系角色的风系伤害。",
+        "TW": "埃莉諾造成傷害時，提升全隊風系角色的風系傷害。"
+      }
+    },
+    "513741": {
+      "id": 513741,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "13701_Potential_41",
+      "subIcon": "Diamond",
+      "name": {
+        "EN": "Reinforcement Command",
+        "KR": "증원 명령",
+        "JP": "才能開花",
+        "CN": "增援指令",
+        "TW": "增援指令"
+      },
+      "briefDesc": {
+        "EN": "When casting the Ultimate, increases Eleanor's Ventus DMG.",
+        "KR": "필살기를 시전할 때 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "必殺技発動時、エレノアの風属性ダメージが増加する。",
+        "CN": "施放绝招时，提升埃莉诺的风系伤害。",
+        "TW": "施放絕招時，提升埃莉諾的風系傷害。"
+      }
+    },
+    "513742": {
+      "id": 513742,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "13701_Potential_41",
+      "subIcon": "Triangle",
+      "name": {
+        "EN": "Purge Command",
+        "KR": "숙청 명령",
+        "JP": "令嬢のたしなみ",
+        "CN": "肃清指令",
+        "TW": "肅清指令"
+      },
+      "briefDesc": {
+        "EN": "Increases Eleanor's Ventus DMG. When the Ultimate deals DMG to a target, increases the Ultimate DMG it deals.",
+        "KR": "엘레노어의 &Param5_kr1& 증가한다. 필살기가 목표에게 피해를 입히면, 필살기가 입히는 &Param1_kr1& 증가한다.",
+        "JP": "エレノアの風属性ダメージが増加する。必殺技が敵にダメージを与えた時、必殺技ダメージが増加する。",
+        "CN": "提升埃莉诺的风系伤害。绝招对目标造成伤害时，提升绝招造成的绝招伤害。",
+        "TW": "提升埃莉諾的風系傷害。絕招對目標造成傷害時，提升絕招造成的絕招傷害。"
+      }
+    },
+    "513743": {
+      "id": 513743,
+      "type": "common",
+      "rarity": 2,
+      "imgId": "13701_Potential_41",
+      "subIcon": "Round",
+      "name": {
+        "EN": "Focus Command",
+        "KR": "집중 명령",
+        "JP": "アドマイアレディ",
+        "CN": "集中指令",
+        "TW": "集中指令"
+      },
+      "briefDesc": {
+        "EN": "Increases Eleanor's ATK. When any Ventus Trekker in the squad casts a Main Skill or Support Skill, increases Eleanor's Ultimate DMG.",
+        "KR": "엘레노어의 &Param5_kr1& 증가한다. 팀 전체 바람 속성 캐릭터가 메인 스킬 또는 지원 스킬을 시전할 때 엘레노어의 &Param1_kr1& 증가한다.",
+        "JP": "エレノアの攻撃力が上昇する。チーム内の風属性巡遊者が主力スキル、または支援スキルを発動時、エレノアの必殺技ダメージが増加する。",
+        "CN": "提升埃莉诺的攻击。全队风系角色施放主控技或援护技时，提升埃莉诺的绝招伤害。",
+        "TW": "提升埃莉諾的攻擊。全隊風系角色施放主控技或援護技時，提升埃莉諾的絕招傷害。"
       }
     }
   },
@@ -20993,7 +21596,7 @@
       "briefDesc": {
         "EN": "Increases all Umbra Trekkers' ATK.",
         "KR": "팀 전체 어둠 속성 캐릭터의 &Param1_kr1& 증가한다.",
-        "JP": "チーム全体の闇属性巡遊者の攻撃力が上昇する。",
+        "JP": "チーム全体の闇属性巡遊者の攻撃力が増加する。",
         "CN": "提升全队暗系角色的攻击。",
         "TW": "提升全隊暗系角色的攻擊。"
       }
@@ -21014,7 +21617,7 @@
       "briefDesc": {
         "EN": "When casting Raging Sea (Support Skill), increases Karin's Umbra DMG.",
         "KR": "지원 스킬 「광폭한 바다의 파도」 시전 시, 카린의 &Param1_kr1& 증가한다.",
-        "JP": "支援スキル発動時、カリンの闇属性ダメージが上昇する。",
+        "JP": "支援スキル発動時、カリンの闇属性ダメージが増加する。",
         "CN": "施放援护技「怒海翻腾」时，提升花铃的暗系伤害。",
         "TW": "施放援護技「怒海翻騰」時，提升花鈴的暗系傷害。"
       }
@@ -22514,7 +23117,7 @@
         "KR": "「버블 개구리」가 일정 횟수 점프할 때마다, 큰 범위의 물 속성 스킬 피해를 입힌다. 물 속성 표식: 수류를 부여할 수 있다. 또한 목표가 받는 모든 원소 피해가 증가한다.",
         "JP": "バブルフロッグが一定回数ジャンプするたびに、広範囲に水属性のスキルダメージを与え、水属性の印：水流を付与する。さらに、命中した敵の全属性被ダメージが増加する。",
         "CN": "「泡泡蛙」每弹跳一定次数后，造成大范围水系技能伤害，可附加水系印记：水流，同时使目标受到所有系伤害提升。",
-        "TW": "「泡泡蛙」每彈跳一定次數後，造成大範圍水系技能傷害，可附加水系印記：水流，同時提升目標受到的水系傷害。"
+        "TW": "「泡泡蛙」每彈跳一定次數後，造成大範圍水系技能傷害，可附加水系印記：水流，同時使目標受到的所有屬性傷害提升。"
       }
     },
     "516011": {
